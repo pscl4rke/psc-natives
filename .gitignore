@@ -1,0 +1,17 @@
+
+# Package building uses these as scratch space:
+psc-core/debian/psc-core/
+
+# And these don't seem valuable:
+psc-core/debian/files
+psc-core/psc-core.debhelper.log
+
+# Package building creates all these in the root directory:
+/*.build
+/*.changes
+/*.deb
+/*.dsc
+/*.tar.gz
+
+# And then the index is built:
+Packages

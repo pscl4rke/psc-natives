@@ -1,0 +1,31 @@
+psc-core (0.0.5) unstable; urgency=low
+
+  * Fix most of the stuff that lintian complains of.  Now the only
+    problem is the fact that the package doesn't actually install
+    anything.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 01 Nov 2014 22:50:23 +0000
+
+psc-core (0.0.4) unstable; urgency=low
+
+  * More detailed /usr
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 01 Nov 2014 19:57:42 +0000
+
+psc-core (0.0.3) unstable; urgency=low
+
+  * Also in /usr
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 01 Nov 2014 19:56:42 +0000
+
+psc-core (0.0.2) unstable; urgency=low
+
+  * Bump version
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 01 Nov 2014 19:55:42 +0000
+
+psc-core (0.0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 01 Nov 2014 19:54:42 +0000

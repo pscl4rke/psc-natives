@@ -1,0 +1,16 @@
+Source: psc-core
+Section: misc
+Priority: extra
+Maintainer: P. S. Clarke <debs@pscl4rke.net>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/psc-core.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/psc-core.git;a=summary
+
+Package: psc-core
+Architecture: all
+Depends: ${misc:Depends}
+Description: Collection of pretty-much essential packages
+ This package provides nothing itself, but depends on lots of packages
+ that the maintainer considers close-to-essential.
