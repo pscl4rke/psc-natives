@@ -1,6 +1,7 @@
 psc-core (0.0.6+nmu1) UNRELEASED; urgency=low
 
   * Add vim as a dependency.
+  * Add coreutils as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Wed, 05 Nov 2014 23:07:36 +0000
 
