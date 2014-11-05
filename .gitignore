@@ -4,7 +4,7 @@ psc-core/debian/psc-core/
 
 # And these don't seem valuable:
 psc-core/debian/files
-psc-core/psc-core.debhelper.log
+*.debhelper.log
 
 # Package building creates all these in the root directory:
 /*.build

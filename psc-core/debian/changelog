@@ -1,3 +1,11 @@
+psc-core (0.0.6) unstable; urgency=low
+
+  * Add git as a dependency.
+  * Add bash as a dependency, with a version to stop lintian
+    moaning.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Tue, 04 Nov 2014 21:39:35 +0000
+
 psc-core (0.0.5) unstable; urgency=low
 
   * Fix most of the stuff that lintian complains of.  Now the only
