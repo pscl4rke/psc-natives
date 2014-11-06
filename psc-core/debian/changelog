@@ -2,6 +2,7 @@ psc-core (0.0.7+nmu1) UNRELEASED; urgency=low
 
   * Consistency in version pinning.
   * Get documentation with vim-doc, git-doc and bash-doc.
+  * Add apt-offline as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Thu, 06 Nov 2014 10:29:45 +0000
 
