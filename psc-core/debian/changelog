@@ -1,11 +1,11 @@
-psc-core (0.0.7+nmu1) UNRELEASED; urgency=low
+psc-core (1.0.0) unstable; urgency=low
 
   * Consistency in version pinning.
   * Get documentation with vim-doc, git-doc and bash-doc.
   * Add apt-offline as a dependency.
   * Add less as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Thu, 06 Nov 2014 10:29:45 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Thu, 06 Nov 2014 23:04:01 +0000
 
 psc-core (0.0.7) unstable; urgency=low
 
