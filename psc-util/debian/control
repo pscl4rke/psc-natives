@@ -10,7 +10,8 @@ Standards-Version: 3.9.3
 
 Package: psc-util
 Architecture: all
-Depends: ${misc:Depends}, ed, groff, m4, make, markdown, pv, realpath, sqlite3,
+Depends: ${misc:Depends}, ed, groff, m4, m4-doc, make, markdown, pv, realpath,
+ sqlite3, sqlite3-doc,
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
