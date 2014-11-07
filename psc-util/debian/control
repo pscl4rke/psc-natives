@@ -10,12 +10,13 @@ Standards-Version: 3.9.3
 
 Package: psc-util
 Architecture: all
-Depends: ${misc:Depends}, ed, markdown, realpath, sqlite3,
+Depends: ${misc:Depends}, ed, m4, markdown, realpath, sqlite3,
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
  .
    * ed - the editor you only use when desparate
+   * m4 - a text preprocessor
    * markdown - the text-to-html converter (pl version)
    * realpath - follow symlinks
    * sqlite3 - a shell for databases
