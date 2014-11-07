@@ -2,6 +2,7 @@ psc-util (0.0.3) UNRELEASED; urgency=low
 
   * Add sqlite3 as a dependency.
   * Add m4 as a dependency.
+  * Add make as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Fri, 07 Nov 2014 22:33:46 +0000
 
