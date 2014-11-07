@@ -1,3 +1,10 @@
+psc-util (0.0.2) unstable; urgency=low
+
+  * Start with markdown and realpath.
+  * Ad ed as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Fri, 07 Nov 2014 20:59:01 +0000
+
 psc-util (0.0.1) unstable; urgency=low
 
   * Initial version with nothing in it.

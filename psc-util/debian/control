@@ -10,11 +10,13 @@ Standards-Version: 3.9.3
 
 Package: psc-util
 Architecture: all
-Depends: ${misc:Depends},
+Depends: ${misc:Depends}, ed, markdown, realpath,
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
  .
-   * (none so far)
+   * ed - the editor you only use when desparate
+   * markdown - the text-to-html converter (pl version)
+   * realpath - follow symlinks
  .
  Their documentation is also included.
