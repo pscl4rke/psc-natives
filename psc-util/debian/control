@@ -10,12 +10,13 @@ Standards-Version: 3.9.3
 
 Package: psc-util
 Architecture: all
-Depends: ${misc:Depends}, ed, m4, make, markdown, realpath, sqlite3,
+Depends: ${misc:Depends}, ed, groff, m4, make, markdown, realpath, sqlite3,
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
  .
    * ed - the editor you only use when desparate
+   * groff - a typesetter (more than just groff-base)
    * m4 - a text preprocessor
    * make - to build all sorts of things
    * markdown - the text-to-html converter (pl version)
