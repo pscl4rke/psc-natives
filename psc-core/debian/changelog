@@ -1,3 +1,9 @@
+psc-core (1.0.1) UNRELEASED; urgency=low
+
+  * Add curl and wget as dependencies.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Fri, 07 Nov 2014 22:29:46 +0000
+
 psc-core (1.0.0) unstable; urgency=low
 
   * Consistency in version pinning.
