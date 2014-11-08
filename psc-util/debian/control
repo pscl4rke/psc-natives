@@ -10,13 +10,14 @@ Standards-Version: 3.9.3
 
 Package: psc-util
 Architecture: all
-Depends: ${misc:Depends}, ed, groff, m4, m4-doc, make, markdown, pv, realpath,
- sqlite3, sqlite3-doc,
+Depends: ${misc:Depends}, ed, fdupes, groff, m4, m4-doc, make, markdown, pv,
+ realpath, sqlite3, sqlite3-doc, tree, 
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
  .
    * ed - the editor you only use when desparate
+   * fdupes - to find duplicates in a filesystem
    * groff - a typesetter (more than just groff-base)
    * m4 - a text preprocessor
    * make - to build all sorts of things
@@ -24,5 +25,6 @@ Description: Collection of well-used command line utilities
    * pv - pipe viewer - cat with a progress bar
    * realpath - follow symlinks
    * sqlite3 - a shell for databases
+   * tree - to visualise a filesystem
  .
  Their documentation is also included.

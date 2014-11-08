@@ -1,6 +1,7 @@
 psc-util (0.0.4) UNRELEASED; urgency=low
 
   * Fix missing sqlite3-doc and m4-doc.
+  * Add tree and fdupes as dependencies.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Fri, 07 Nov 2014 22:55:50 +0000
 
