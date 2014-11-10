@@ -1,9 +1,9 @@
-psc-util (0.0.5) UNRELEASED; urgency=low
+psc-util (1.0.0) unstable; urgency=low
 
   * Add colordiff as a dependency.
   * Add tofrodos and dos2unix as dependencies.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Mon, 10 Nov 2014 09:29:28 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Mon, 10 Nov 2014 23:27:27 +0000
 
 psc-util (0.0.4) unstable; urgency=low
 
