@@ -10,14 +10,16 @@ Standards-Version: 3.9.3
 
 Package: psc-util
 Architecture: all
-Depends: ${misc:Depends}, bsdgames, colordiff, ed, fdupes, groff, m4, m4-doc,
- make, markdown, pv, realpath, sqlite3, sqlite3-doc, tidy, tidy-doc, tree, 
+Depends: ${misc:Depends}, bsdgames, colordiff, dos2unix, ed, fdupes, groff,
+ m4, m4-doc, make, markdown, pv, realpath, sqlite3, sqlite3-doc, tidy,
+ tidy-doc, tofrodos, tree, 
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
  .
    * bsdgames - for serious stuff, like rot13
    * colordiff - for more readable deltas
+   * dos2unix - the original crlf <-> lf converter
    * ed - the editor you only use when desparate
    * fdupes - to find duplicates in a filesystem
    * groff - a typesetter (more than just groff-base)
@@ -28,6 +30,7 @@ Description: Collection of well-used command line utilities
    * realpath - follow symlinks
    * sqlite3 - a shell for databases
    * tidy - to clean up HTML and XML files
+   * tofrodos - another crlf <-> lf converter
    * tree - to visualise a filesystem
  .
  Their documentation is also included.
