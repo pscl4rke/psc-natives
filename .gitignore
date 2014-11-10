@@ -14,5 +14,8 @@ psc-util/debian/psc-util/
 /*.dsc
 /*.tar.gz
 
-# And then the index is built:
+# And then the indices etc are built:
 Packages
+Packages.gz
+Release
+Release.gpg
