@@ -2,6 +2,7 @@
 # Package building uses these as scratch space:
 psc-core/debian/psc-core/
 psc-util/debian/psc-util/
+psc-term/debian/psc-term/
 
 # And these don't seem valuable:
 */debian/files
