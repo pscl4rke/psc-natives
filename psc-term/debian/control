@@ -10,7 +10,7 @@ Standards-Version: 3.9.3
 
 Package: psc-term
 Architecture: all
-Depends: ${misc:Depends}, htop, ncdu,
+Depends: ${misc:Depends}, htop, ncdu, tig,
 Description: Collection of well-known terminal applications
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly in terminal windows.  These are ones
@@ -18,5 +18,6 @@ Description: Collection of well-known terminal applications
  .
    * htop - tolerable browsing of processes
    * ncdu - to see what is taking up all the space
+   * tig - to browse git history
  .
  Their documentation is also included.
