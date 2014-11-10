@@ -10,12 +10,13 @@ Standards-Version: 3.9.3
 
 Package: psc-term
 Architecture: all
-Depends: ${misc:Depends}, ncdu,
+Depends: ${misc:Depends}, htop, ncdu,
 Description: Collection of well-known terminal applications
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly in terminal windows.  These are ones
  that use the full window space, probably using ncurses.
  .
+   * htop - tolerable browsing of processes
    * ncdu - to see what is taking up all the space
  .
  Their documentation is also included.
