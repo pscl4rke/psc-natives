@@ -1,5 +1,6 @@
 psc-term (0.0.1) UNRELEASED; urgency=low
 
   * Initial Release.
+  * Add ncdu as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Mon, 10 Nov 2014 09:33:48 +0000
