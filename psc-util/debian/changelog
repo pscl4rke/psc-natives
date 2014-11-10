@@ -1,3 +1,9 @@
+psc-util (0.0.5) UNRELEASED; urgency=low
+
+  * Add colordiff as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Mon, 10 Nov 2014 09:29:28 +0000
+
 psc-util (0.0.4) unstable; urgency=low
 
   * Fix missing sqlite3-doc and m4-doc.
