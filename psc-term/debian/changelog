@@ -1,6 +1,7 @@
 psc-term (0.0.3) UNRELEASED; urgency=low
 
   * Add screen as a dependency.
+  * Add mutt as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Tue, 11 Nov 2014 10:39:44 +0000
 

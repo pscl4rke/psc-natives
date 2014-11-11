@@ -10,13 +10,14 @@ Standards-Version: 3.9.3
 
 Package: psc-term
 Architecture: all
-Depends: ${misc:Depends}, htop, ncdu, screen, tig,
+Depends: ${misc:Depends}, htop, mutt, ncdu, screen, tig,
 Description: Collection of well-known terminal applications
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly in terminal windows.  These are ones
  that use the full window space, probably using ncurses.
  .
    * htop - tolerable browsing of processes
+   * mutt - least-suckiest mail client
    * ncdu - to see what is taking up all the space
    * screen - to multiplex and detach terminals
    * tig - to browse git history
