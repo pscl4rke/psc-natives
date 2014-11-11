@@ -10,7 +10,7 @@ Standards-Version: 3.9.3
 
 Package: psc-term
 Architecture: all
-Depends: ${misc:Depends}, htop, mutt, ncdu, screen, tig,
+Depends: ${misc:Depends}, htop, mutt, ncdu, screen, tig, w3m
 Description: Collection of well-known terminal applications
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly in terminal windows.  These are ones
@@ -21,5 +21,6 @@ Description: Collection of well-known terminal applications
    * ncdu - to see what is taking up all the space
    * screen - to multiplex and detach terminals
    * tig - to browse git history
+   * w3m - HTML renderer and web client
  .
  Their documentation is also included.
