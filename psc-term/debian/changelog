@@ -5,6 +5,7 @@ psc-term (0.0.3) UNRELEASED; urgency=low
   * Add w3m as a dependency.
   * Add msmtp-mta as a dependency.  This provides an MTA which satisfies
     mutt and stops it installing something like postfix.
+  * Add ncmpcpp as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Tue, 11 Nov 2014 10:39:44 +0000
 
