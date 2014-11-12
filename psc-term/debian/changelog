@@ -1,4 +1,4 @@
-psc-term (0.0.3) UNRELEASED; urgency=low
+psc-term (1.0.0) unstable; urgency=low
 
   * Add screen as a dependency.
   * Add mutt as a dependency.
@@ -7,7 +7,7 @@ psc-term (0.0.3) UNRELEASED; urgency=low
     mutt and stops it installing something like postfix.
   * Add ncmpcpp as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Tue, 11 Nov 2014 10:39:44 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Wed, 12 Nov 2014 10:59:00 +0000
 
 psc-term (0.0.2) unstable; urgency=low
 
