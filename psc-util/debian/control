@@ -11,8 +11,8 @@ Standards-Version: 3.9.3
 Package: psc-util
 Architecture: all
 Depends: ${misc:Depends}, antiword, apcalc, bc, bsdgames, catdoc, colordiff,
- dc, dos2unix, ed, fdupes, groff, m4, m4-doc, make, markdown, pv, realpath,
- sqlite3, sqlite3-doc, tidy, tidy-doc, tofrodos, tree, docx2txt
+ dc, dos2unix, ed, fdupes, file, groff, m4, m4-doc, make, markdown, pv,
+ realpath, sqlite3, sqlite3-doc, tidy, tidy-doc, tofrodos, tree, docx2txt,
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
@@ -27,6 +27,7 @@ Description: Collection of well-used command line utilities
    * dos2unix - the original crlf <-> lf converter
    * ed - the editor you only use when desparate
    * fdupes - to find duplicates in a filesystem
+   * file - tell file types with magic numbers
    * groff - a typesetter (more than just groff-base)
    * m4 - a text preprocessor
    * make - to build all sorts of things
