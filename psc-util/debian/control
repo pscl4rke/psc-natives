@@ -10,15 +10,18 @@ Standards-Version: 3.9.3
 
 Package: psc-util
 Architecture: all
-Depends: ${misc:Depends}, bsdgames, colordiff, dos2unix, ed, fdupes, groff,
- m4, m4-doc, make, markdown, pv, realpath, sqlite3, sqlite3-doc, tidy,
- tidy-doc, tofrodos, tree, 
+Depends: ${misc:Depends}, apcalc, bc, bsdgames, colordiff, dc, dos2unix, ed,
+ fdupes, groff, m4, m4-doc, make, markdown, pv, realpath, sqlite3,
+ sqlite3-doc, tidy, tidy-doc, tofrodos, tree, 
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
  .
+   * apcalc - for the `calc` calculator
+   * bc - for another calculator
    * bsdgames - for serious stuff, like rot13
    * colordiff - for more readable deltas
+   * dc - for reverse polish calculations
    * dos2unix - the original crlf <-> lf converter
    * ed - the editor you only use when desparate
    * fdupes - to find duplicates in a filesystem
