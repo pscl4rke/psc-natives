@@ -10,16 +10,18 @@ Standards-Version: 3.9.3
 
 Package: psc-util
 Architecture: all
-Depends: ${misc:Depends}, apcalc, bc, bsdgames, colordiff, dc, dos2unix, ed,
- fdupes, groff, m4, m4-doc, make, markdown, pv, realpath, sqlite3,
- sqlite3-doc, tidy, tidy-doc, tofrodos, tree, 
+Depends: ${misc:Depends}, antiword, apcalc, bc, bsdgames, catdoc, colordiff,
+ dc, dos2unix, ed, fdupes, groff, m4, m4-doc, make, markdown, pv, realpath,
+ sqlite3, sqlite3-doc, tidy, tidy-doc, tofrodos, tree, docx2txt
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
  .
+   * antiword - read MS .doc files
    * apcalc - for the `calc` calculator
    * bc - for another calculator
    * bsdgames - for serious stuff, like rot13
+   * catdoc - also includes `catppt` and `xls2csv`
    * colordiff - for more readable deltas
    * dc - for reverse polish calculations
    * dos2unix - the original crlf <-> lf converter
@@ -35,5 +37,6 @@ Description: Collection of well-used command line utilities
    * tidy - to clean up HTML and XML files
    * tofrodos - another crlf <-> lf converter
    * tree - to visualise a filesystem
+   * docx2txt - read MS .docx files
  .
  Their documentation is also included.

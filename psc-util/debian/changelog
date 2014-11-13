@@ -1,6 +1,7 @@
 psc-util (1.0.1) UNRELEASED; urgency=low
 
   * Add apcalc, bc and dc as dependencies.
+  * Add antiword, catdoc and docx2txt as dependencies.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Thu, 13 Nov 2014 10:37:53 +0000
 
