@@ -11,8 +11,8 @@ Standards-Version: 3.9.3
 Package: psc-util
 Architecture: all
 Depends: ${misc:Depends}, antiword, apcalc, bc, bsdgames, catdoc, colordiff,
- dc, dos2unix, ed, fdupes, file, groff, m4, m4-doc, make, markdown, pv,
- realpath, sqlite3, sqlite3-doc, tidy, tidy-doc, tofrodos, tree, docx2txt,
+ dc, dos2unix, ed, fdupes, file, groff, m4, m4-doc, make, markdown, moreutils,
+ pv, realpath, sqlite3, sqlite3-doc, tidy, tidy-doc, tofrodos, tree, docx2txt,
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
@@ -32,6 +32,7 @@ Description: Collection of well-used command line utilities
    * m4 - a text preprocessor
    * make - to build all sorts of things
    * markdown - the text-to-html converter (pl version)
+   * moreutils - assorted stuff not in coreutils
    * pv - pipe viewer - cat with a progress bar
    * realpath - follow symlinks
    * sqlite3 - a shell for databases
