@@ -1,3 +1,10 @@
+psc-term (1.0.1) unstable; urgency=low
+
+  * Fix MTA dependency issue, by using any provider of "default-mta"
+    but defaulting to msmtp-mta if it isn't available.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Fri, 14 Nov 2014 08:38:07 +0000
+
 psc-term (1.0.0) unstable; urgency=low
 
   * Add screen as a dependency.
