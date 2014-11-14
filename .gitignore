@@ -3,6 +3,7 @@
 psc-core/debian/psc-core/
 psc-util/debian/psc-util/
 psc-term/debian/psc-term/
+psc-xwin/debian/psc-xwin/
 
 # And these don't seem valuable:
 */debian/files

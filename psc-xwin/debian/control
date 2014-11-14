@@ -1,0 +1,23 @@
+Source: psc-xwin
+Section: misc
+Priority: extra
+Maintainer: P. S. Clarke <debs@pscl4rke.net>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/psc-xwin.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/psc-xwin.git;a=summary
+
+Package: psc-xwin
+Architecture: all
+Depends: ${misc:Depends}
+Description: Collection of toolkit-independent GUI tools
+ This package provides nothing itself, but depends upon packages
+ that the maintainer considers important for working in X windows
+ environment.  The idea is that they won't have a dependency on
+ a particular toolkit, although there will be some usage of GTK,
+ mostly courtesy of package recommendations.
+ .
+   * (none so far)
+ .
+ Their documentation is also included.
