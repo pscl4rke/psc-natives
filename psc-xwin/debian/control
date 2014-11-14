@@ -10,7 +10,7 @@ Standards-Version: 3.9.3
 
 Package: psc-xwin
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, openbox,
 Description: Collection of toolkit-independent GUI tools
  This package provides nothing itself, but depends upon packages
  that the maintainer considers important for working in X windows
@@ -18,6 +18,6 @@ Description: Collection of toolkit-independent GUI tools
  a particular toolkit, although there will be some usage of GTK,
  mostly courtesy of package recommendations.
  .
-   * (none so far)
+   * openbox - an excellent window manager
  .
  Their documentation is also included.
