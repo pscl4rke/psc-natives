@@ -1,8 +1,8 @@
-psc-xwin (0.0.1) UNRELEASED; urgency=low
+psc-xwin (1.0.0) unstable; urgency=low
 
   * Initial Release.
   * Add openbox as a dependency.
   * Add rxvt-unicode as a dependency.
   * Add suckless-tools as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Fri, 14 Nov 2014 10:26:20 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 15 Nov 2014 21:40:44 +0000
