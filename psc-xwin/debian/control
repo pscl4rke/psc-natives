@@ -11,7 +11,7 @@ Standards-Version: 3.9.3
 Package: psc-xwin
 Architecture: all
 Depends: ${misc:Depends}, openbox, rxvt-unicode, suckless-tools,
- wmctrl,
+ wmctrl, xclip,
 Description: Collection of toolkit-independent GUI tools
  This package provides nothing itself, but depends upon packages
  that the maintainer considers important for working in X windows
@@ -23,5 +23,6 @@ Description: Collection of toolkit-independent GUI tools
    * rxvt-unicode - the urxvt terminal
    * suckless-tools - for the excellent dmenu
    * wmctrl - for finding windows
+   * xclip - to manage the clipboards
  .
  Their documentation is also included.

@@ -1,6 +1,7 @@
 psc-xwin (1.0.1) UNRELEASED; urgency=low
 
   * Add wmctrl as a dependency.
+  * Add xclip as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 15 Nov 2014 21:56:07 +0000
 
