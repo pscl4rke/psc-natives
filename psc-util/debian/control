@@ -14,7 +14,7 @@ Depends: ${misc:Depends}, ack-grep, antiword, apcalc, bc,
  binutils, binutils-doc, bsdgames,
  catdoc, colordiff, dc, dos2unix, ed, fdupes, file, groff, m4, m4-doc,
  make, markdown, moreutils, pv, realpath, sqlite3, sqlite3-doc,
- tidy, tidy-doc, tofrodos, tree, docx2txt,
+ strace, tidy, tidy-doc, tofrodos, tree, docx2txt,
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
@@ -40,6 +40,7 @@ Description: Collection of well-used command line utilities
    * pv - pipe viewer - cat with a progress bar
    * realpath - follow symlinks
    * sqlite3 - a shell for databases
+   * strace - to see what a program is doing
    * tidy - to clean up HTML and XML files
    * tofrodos - another crlf <-> lf converter
    * tree - to visualise a filesystem
