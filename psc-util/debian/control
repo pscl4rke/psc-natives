@@ -10,7 +10,8 @@ Standards-Version: 3.9.3
 
 Package: psc-util
 Architecture: all
-Depends: ${misc:Depends}, ack-grep, antiword, apcalc, bc, bsdgames,
+Depends: ${misc:Depends}, ack-grep, antiword, apcalc, bc,
+ binutils, binutils-doc, bsdgames,
  catdoc, colordiff, dc, dos2unix, ed, fdupes, file, groff, m4, m4-doc,
  make, markdown, moreutils, pv, realpath, sqlite3, sqlite3-doc,
  tidy, tidy-doc, tofrodos, tree, docx2txt,
@@ -22,6 +23,7 @@ Description: Collection of well-used command line utilities
    * antiword - read MS .doc files
    * apcalc - for the `calc` calculator
    * bc - for another calculator
+   * binutils - only for `strings` really
    * bsdgames - for serious stuff, like rot13
    * catdoc - also includes `catppt` and `xls2csv`
    * colordiff - for more readable deltas
