@@ -15,7 +15,7 @@ Depends: ${misc:Depends}, ack-grep, antiword, apcalc, bc,
  catdoc, colordiff, dc, docx2txt, dos2unix, ed,
  fdupes, file, groff, m4, m4-doc,
  make, markdown, moreutils, pv, realpath, sqlite3, sqlite3-doc,
- strace, tidy, tidy-doc, tofrodos, tree,
+ strace, tidy, tidy-doc, tofrodos, tree, uuid
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
@@ -46,5 +46,6 @@ Description: Collection of well-used command line utilities
    * tidy - to clean up HTML and XML files
    * tofrodos - another crlf <-> lf converter
    * tree - to visualise a filesystem
+   * uuid - for random identifiers
  .
  Their documentation is also included.
