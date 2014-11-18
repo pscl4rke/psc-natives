@@ -1,4 +1,4 @@
-psc-util (1.2.0) UNRELEASED; urgency=low
+psc-util (1.2.0) unstable; urgency=low
 
   * Add ack-grep as a dependency.
   * Add binutils as a dependency.
@@ -6,7 +6,7 @@ psc-util (1.2.0) UNRELEASED; urgency=low
   * Add uuid as a dependency.
   * Add sshuttle as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Sun, 16 Nov 2014 22:32:58 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Tue, 18 Nov 2014 23:09:01 +0000
 
 psc-util (1.1.0) unstable; urgency=low
 
