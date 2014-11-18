@@ -4,6 +4,7 @@ psc-util (1.2.0) UNRELEASED; urgency=low
   * Add binutils as a dependency.
   * Add strace as a dependency.
   * Add uuid as a dependency.
+  * Add sshuttle as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sun, 16 Nov 2014 22:32:58 +0000
 
