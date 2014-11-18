@@ -1,3 +1,9 @@
+psc-term (1.1.0) UNRELEASED; urgency=low
+
+  * Add hexer as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Tue, 18 Nov 2014 20:29:46 +0000
+
 psc-term (1.0.1) unstable; urgency=low
 
   * Fix MTA dependency issue, by using any provider of "default-mta"
