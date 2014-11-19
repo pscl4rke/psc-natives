@@ -10,7 +10,8 @@ Standards-Version: 3.9.3
 
 Package: psc-xwin
 Architecture: all
-Depends: ${misc:Depends}, openbox, rxvt-unicode, suckless-tools,
+Depends: ${misc:Depends}, openbox, libnotify-bin, libnotify-doc,
+ rxvt-unicode, suckless-tools,
  wmctrl, xclip,
 Description: Collection of toolkit-independent GUI tools
  This package provides nothing itself, but depends upon packages
@@ -20,6 +21,7 @@ Description: Collection of toolkit-independent GUI tools
  mostly courtesy of package recommendations.
  .
    * openbox - an excellent window manager
+   * libnotify-bin - to send messages to the screen
    * rxvt-unicode - the urxvt terminal
    * suckless-tools - for the excellent dmenu
    * wmctrl - for finding windows
