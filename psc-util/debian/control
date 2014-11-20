@@ -14,7 +14,8 @@ Depends: ${misc:Depends}, ack-grep, antiword, apache2-utils, apcalc, bc,
  binutils, binutils-doc, bsdgames,
  catdoc, colordiff, dc, docx2txt, dos2unix, ed,
  fdupes, file, gpw, groff, m4, m4-doc,
- make, markdown, moreutils, pv, realpath, rlwrap, sqlite3, sqlite3-doc,
+ make, markdown, moreutils, msmtp, pv,
+ realpath, rlwrap, sqlite3, sqlite3-doc,
  sshuttle, strace, telnet, tidy, tidy-doc, tofrodos, tree, uuid
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
@@ -42,6 +43,7 @@ Description: Collection of well-used command line utilities
    * make - to build all sorts of things
    * markdown - the text-to-html converter (pl version)
    * moreutils - assorted stuff not in coreutils
+   * msmtp - to send emails
    * pv - pipe viewer - cat with a progress bar
    * realpath - follow symlinks
    * sqlite3 - a shell for databases
