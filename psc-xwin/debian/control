@@ -10,7 +10,8 @@ Standards-Version: 3.9.3
 
 Package: psc-xwin
 Architecture: all
-Depends: ${misc:Depends}, openbox, libnotify-bin, libnotify-doc,
+Depends: ${misc:Depends}, arandr, openbox,
+ libnotify-bin, libnotify-doc,
  rxvt-unicode, scrot, suckless-tools,
  wmctrl, xclip,
 Description: Collection of toolkit-independent GUI tools
@@ -20,6 +21,7 @@ Description: Collection of toolkit-independent GUI tools
  a particular toolkit, although there will be some usage of GTK,
  mostly courtesy of package recommendations.
  .
+   * arandr - wraps xrandr for multi-monitor
    * openbox - an excellent window manager
    * libnotify-bin - to send messages to the screen
    * rxvt-unicode - the urxvt terminal
