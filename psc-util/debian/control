@@ -13,7 +13,7 @@ Architecture: all
 Depends: ${misc:Depends}, ack-grep, antiword, apache2-utils, apcalc, bc,
  binutils, binutils-doc, bsdgames,
  catdoc, colordiff, dc, docx2txt, dos2unix, ed,
- fdupes, file, groff, m4, m4-doc,
+ fdupes, file, gpw, groff, m4, m4-doc,
  make, markdown, moreutils, pv, realpath, sqlite3, sqlite3-doc,
  sshuttle, strace, telnet, tidy, tidy-doc, tofrodos, tree, uuid
 Description: Collection of well-used command line utilities
@@ -35,6 +35,7 @@ Description: Collection of well-used command line utilities
    * ed - the editor you only use when desparate
    * fdupes - to find duplicates in a filesystem
    * file - tell file types with magic numbers
+   * gpw - to generate codenames and vanity handles
    * groff - a typesetter (more than just groff-base)
    * m4 - a text preprocessor
    * make - to build all sorts of things
