@@ -13,7 +13,7 @@ Architecture: all
 Depends: ${misc:Depends}, arandr, openbox,
  libnotify-bin, libnotify-doc,
  rxvt-unicode, scrot, suckless-tools,
- wmctrl, xclip,
+ wmctrl, xclip, zenity,
 Description: Collection of toolkit-independent GUI tools
  This package provides nothing itself, but depends upon packages
  that the maintainer considers important for working in X windows
@@ -29,5 +29,6 @@ Description: Collection of toolkit-independent GUI tools
    * suckless-tools - for the excellent dmenu
    * wmctrl - for finding windows
    * xclip - to manage the clipboards
+   * zenity - for scriptable popups
  .
  Their documentation is also included.
