@@ -8,6 +8,7 @@ psc-util (1.2.1) UNRELEASED; urgency=low
   * Add offlineimap as a dependency.
   * Add cloc as a dependency.
   * Add mpc as a dependency.
+  * Add whois as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Wed, 19 Nov 2014 11:20:27 +0000
 

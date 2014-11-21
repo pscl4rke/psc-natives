@@ -16,7 +16,8 @@ Depends: ${misc:Depends}, ack-grep, antiword, apache2-utils, apcalc, bc,
  fdupes, file, gpw, groff, m4, m4-doc,
  make, markdown, moreutils, mpc, msmtp, offlineimap, pv,
  realpath, rlwrap, sqlite3, sqlite3-doc,
- sshuttle, strace, telnet, tidy, tidy-doc, tofrodos, tree, uuid
+ sshuttle, strace, telnet, tidy, tidy-doc,
+ tofrodos, tree, uuid, whois,
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
@@ -57,5 +58,6 @@ Description: Collection of well-used command line utilities
    * tofrodos - another crlf <-> lf converter
    * tree - to visualise a filesystem
    * uuid - for random identifiers
+   * whois - for `whois` and `mkpasswd`
  .
  Their documentation is also included.
