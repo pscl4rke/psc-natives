@@ -13,7 +13,7 @@ Architecture: all
 Depends: ${misc:Depends}, ack-grep, antiword, apache2-utils, apcalc, bc,
  binutils, binutils-doc, bsdgames,
  catdoc, cloc, colordiff, dc, docx2txt, dos2unix, ed,
- fdupes, file, gpw, groff, m4, m4-doc,
+ fdupes, file, gpw, groff, jq, m4, m4-doc,
  make, markdown, moreutils, mpc, msmtp, offlineimap, pv,
  realpath, rlwrap, sqlite3, sqlite3-doc,
  sshuttle, strace, telnet, tesseract-ocr, tidy, tidy-doc,
@@ -42,6 +42,7 @@ Description: Collection of well-used command line utilities
    * gpw - to generate codenames and vanity handles
    * groff - a typesetter (more than just groff-base)
         (this has substantial subdependencies)
+   * jq - for manipulating JSON
    * m4 - a text preprocessor
    * make - to build all sorts of things
    * markdown - the text-to-html converter (pl version)
