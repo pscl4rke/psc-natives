@@ -7,6 +7,7 @@ psc-xwin (1.0.1) UNRELEASED; urgency=low
   * Add arandr as a dependency.
   * Add zenity as a dependency.
   * Add vim-gtk as a dependency.
+  * Add xmacro as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 15 Nov 2014 21:56:07 +0000
 
