@@ -41,6 +41,7 @@ Description: Collection of well-used command line utilities
    * rlwrap - improve shell-like programs
    * gpw - to generate codenames and vanity handles
    * groff - a typesetter (more than just groff-base)
+        (this has substantial subdependencies)
    * m4 - a text preprocessor
    * make - to build all sorts of things
    * markdown - the text-to-html converter (pl version)
