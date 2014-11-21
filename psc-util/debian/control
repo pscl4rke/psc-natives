@@ -12,7 +12,7 @@ Package: psc-util
 Architecture: all
 Depends: ${misc:Depends}, ack-grep, antiword, apache2-utils, apcalc, bc,
  binutils, binutils-doc, bsdgames,
- catdoc, cloc, colordiff, dc, docx2txt, dos2unix, ed,
+ catdoc, cloc, colordiff, dc, docx2txt, dos2unix, dnsutils, ed,
  fdupes, file, gpw, groff, jq, m4, m4-doc,
  make, markdown, moreutils, mpc, msmtp, offlineimap, pv,
  realpath, rlwrap, sqlite3, sqlite3-doc,
@@ -35,6 +35,7 @@ Description: Collection of well-used command line utilities
    * dc - for reverse polish calculations
    * docx2txt - read MS .docx files
    * dos2unix - the original crlf <-> lf converter
+   * dnsutils - for `dig` and `nslookup`
    * ed - the editor you only use when desparate
    * fdupes - to find duplicates in a filesystem
    * file - tell file types with magic numbers
