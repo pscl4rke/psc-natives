@@ -14,7 +14,7 @@ Depends: ${misc:Depends}, ack-grep, antiword, apache2-utils, apcalc, bc,
  binutils, binutils-doc, bsdgames,
  catdoc, cloc, colordiff, dc, docx2txt, dos2unix, ed,
  fdupes, file, gpw, groff, m4, m4-doc,
- make, markdown, moreutils, msmtp, offlineimap, pv,
+ make, markdown, moreutils, mpc, msmtp, offlineimap, pv,
  realpath, rlwrap, sqlite3, sqlite3-doc,
  sshuttle, strace, telnet, tidy, tidy-doc, tofrodos, tree, uuid
 Description: Collection of well-used command line utilities
@@ -44,6 +44,7 @@ Description: Collection of well-used command line utilities
    * make - to build all sorts of things
    * markdown - the text-to-html converter (pl version)
    * moreutils - assorted stuff not in coreutils
+   * mpc - connect to MPD servers
    * msmtp - to send emails
    * offlineimap - synchronise with mail servers
    * pv - pipe viewer - cat with a progress bar
