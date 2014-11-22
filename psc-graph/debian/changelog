@@ -1,4 +1,4 @@
-psc-graph (0.0.2) UNRELEASED; urgency=low
+psc-graph (1.0.0) unstable; urgency=low
 
   * Initial Release.
   * Add groff and tesseract-ocr as dependencies.
@@ -7,4 +7,4 @@ psc-graph (0.0.2) UNRELEASED; urgency=low
     These are recommendations for groff, so generally
     get installed anyway.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Sat, 22 Nov 2014 09:06:45 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 22 Nov 2014 12:57:21 +0000
