@@ -1,3 +1,10 @@
+psc-util (1.3.1) unstable; urgency=low
+
+  * Drop groff and tesseract-ocr as dependencies.
+    These are now handled in the psc-graph package.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 22 Nov 2014 09:55:46 +0000
+
 psc-util (1.3.0) unstable; urgency=low
 
   * Add telnet as a dependency.

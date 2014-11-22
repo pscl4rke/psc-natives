@@ -13,10 +13,10 @@ Architecture: all
 Depends: ${misc:Depends}, ack-grep, antiword, apache2-utils, apcalc, bc,
  binutils, binutils-doc, bsdgames,
  catdoc, cloc, colordiff, dc, docx2txt, dos2unix, dnsutils, ed,
- fdupes, file, gpw, groff, jq, m4, m4-doc,
+ fdupes, file, gpw, jq, m4, m4-doc,
  make, markdown, moreutils, mpc, msmtp, offlineimap, pv,
  realpath, rlwrap, sqlite3, sqlite3-doc,
- sshuttle, strace, telnet, tesseract-ocr, tidy, tidy-doc,
+ sshuttle, strace, telnet, tidy, tidy-doc,
  tofrodos, tree, uuid, whois,
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
@@ -41,8 +41,6 @@ Description: Collection of well-used command line utilities
    * file - tell file types with magic numbers
    * rlwrap - improve shell-like programs
    * gpw - to generate codenames and vanity handles
-   * groff - a typesetter (more than just groff-base)
-        (this has substantial subdependencies)
    * jq - for manipulating JSON
    * m4 - a text preprocessor
    * make - to build all sorts of things
@@ -57,7 +55,6 @@ Description: Collection of well-used command line utilities
    * sshuttle - for quick n dirty VPNs
    * strace - to see what a program is doing
    * telnet - for crude networking
-   * tesseract-ocr - the best image-to-text
    * tidy - to clean up HTML and XML files
    * tofrodos - another crlf <-> lf converter
    * tree - to visualise a filesystem
