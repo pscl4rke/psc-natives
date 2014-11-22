@@ -1,5 +1,7 @@
-psc-graph (0.0.1) unstable; urgency=low
+psc-graph (0.0.2) UNRELEASED; urgency=low
 
   * Initial Release.
+  * Add groff and tesseract-ocr as dependencies.
+    These have been moved in from psc-util.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 22 Nov 2014 09:06:45 +0000

@@ -10,12 +10,13 @@ Standards-Version: 3.9.3
 
 Package: psc-graph
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, groff, tesseract-ocr,
 Description: Collection of packages for images and typesetting
  This package provides nothing itself, but depends on lots of packages
  that the maintainer finds valuable for handling images and doing page
  layout.  They are:
  .
-   * (none)
+   * groff - a typesetter (more than just groff-base)
+   * tesseract-ocr - the best image-to-text
  .
  Their documentation is also included.
