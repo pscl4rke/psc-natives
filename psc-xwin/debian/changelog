@@ -1,4 +1,4 @@
-psc-xwin (1.0.1) UNRELEASED; urgency=low
+psc-xwin (1.1.0) unstable; urgency=low
 
   * Add wmctrl as a dependency.
   * Add xclip as a dependency.
@@ -9,7 +9,7 @@ psc-xwin (1.0.1) UNRELEASED; urgency=low
   * Add vim-gtk as a dependency.
   * Add xmacro as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Sat, 15 Nov 2014 21:56:07 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 22 Nov 2014 12:53:26 +0000
 
 psc-xwin (1.0.0) unstable; urgency=low
 
