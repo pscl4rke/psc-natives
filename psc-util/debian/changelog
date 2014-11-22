@@ -1,4 +1,4 @@
-psc-util (1.2.1) UNRELEASED; urgency=low
+psc-util (1.3.0) unstable; urgency=low
 
   * Add telnet as a dependency.
   * Add apache2-utils as a dependency.
@@ -13,7 +13,7 @@ psc-util (1.2.1) UNRELEASED; urgency=low
   * Add jq as a dependency.
   * Add dnsutils as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Wed, 19 Nov 2014 11:20:27 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 22 Nov 2014 09:43:14 +0000
 
 psc-util (1.2.0) unstable; urgency=low
 
