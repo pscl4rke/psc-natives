@@ -3,5 +3,8 @@ psc-graph (0.0.2) UNRELEASED; urgency=low
   * Initial Release.
   * Add groff and tesseract-ocr as dependencies.
     These have been moved in from psc-util.
+  * Add ghostscript, imagemagick, netpbm and psutils.
+    These are recommendations for groff, so generally
+    get installed anyway.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 22 Nov 2014 09:06:45 +0000

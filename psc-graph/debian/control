@@ -10,13 +10,18 @@ Standards-Version: 3.9.3
 
 Package: psc-graph
 Architecture: all
-Depends: ${misc:Depends}, groff, tesseract-ocr,
+Depends: ${misc:Depends}, ghostscript, ghostscript-doc, groff,
+ imagemagick, imagemagick-doc, netpbm, psutils, tesseract-ocr,
 Description: Collection of packages for images and typesetting
  This package provides nothing itself, but depends on lots of packages
  that the maintainer finds valuable for handling images and doing page
  layout.  They are:
  .
+   * ghostscript - kitchen sink for postscript
    * groff - a typesetter (more than just groff-base)
+   * imagemagick - convert image formats
+   * netpbm - more image conversion
+   * psutils - rearrange postscript pages
    * tesseract-ocr - the best image-to-text
  .
  Their documentation is also included.
