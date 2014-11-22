@@ -4,10 +4,12 @@ psc-core/debian/psc-core/
 psc-util/debian/psc-util/
 psc-term/debian/psc-term/
 psc-xwin/debian/psc-xwin/
+psc-graph/debian/psc-graph/
 
 # And these don't seem valuable:
 */debian/files
 *.debhelper.log
+*.substvars
 
 # Package building creates all these in the root directory:
 /*.build
