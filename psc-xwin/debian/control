@@ -13,7 +13,7 @@ Architecture: all
 Depends: ${misc:Depends}, arandr, openbox,
  libnotify-bin, libnotify-doc,
  rxvt-unicode, scrot, suckless-tools,
- vim-gtk, wmctrl, xclip, xmacro, zenity,
+ vim-gtk, wmctrl, x11-utils, xclip, xmacro, zenity,
 Description: Collection of toolkit-independent GUI tools
  This package provides nothing itself, but depends upon packages
  that the maintainer considers important for working in X windows
@@ -29,6 +29,7 @@ Description: Collection of toolkit-independent GUI tools
    * suckless-tools - for the excellent dmenu
    * vim-gtk - to edit odd things
    * wmctrl - for finding windows
+   * x11-utils - little utilities
    * xclip - to manage the clipboards
    * xmacro - generate fake keystrokes
    * zenity - for scriptable popups

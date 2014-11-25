@@ -1,3 +1,9 @@
+psc-xwin (1.2.0) UNRELEASED; urgency=low
+
+  * Add x11-utils as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Tue, 25 Nov 2014 19:59:43 +0000
+
 psc-xwin (1.1.0) unstable; urgency=low
 
   * Add wmctrl as a dependency.
