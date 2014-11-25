@@ -1,3 +1,9 @@
+psc-graph (1.1.0) UNRELEASED; urgency=low
+
+  * Add python-reportlab as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Tue, 25 Nov 2014 20:06:12 +0000
+
 psc-graph (1.0.0) unstable; urgency=low
 
   * Initial Release.

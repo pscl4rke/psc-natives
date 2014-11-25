@@ -11,7 +11,8 @@ Standards-Version: 3.9.3
 Package: psc-graph
 Architecture: all
 Depends: ${misc:Depends}, ghostscript, ghostscript-doc, groff,
- imagemagick, imagemagick-doc, netpbm, psutils, tesseract-ocr,
+ imagemagick, imagemagick-doc, netpbm,
+ psutils, python-reportlab, python-reportlab-doc, tesseract-ocr,
 Description: Collection of packages for images and typesetting
  This package provides nothing itself, but depends on lots of packages
  that the maintainer finds valuable for handling images and doing page
@@ -22,6 +23,7 @@ Description: Collection of packages for images and typesetting
    * imagemagick - convert image formats
    * netpbm - more image conversion
    * psutils - rearrange postscript pages
+   * python-reportlab - for my OCR tool
    * tesseract-ocr - the best image-to-text
  .
  Their documentation is also included.
