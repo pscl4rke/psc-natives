@@ -10,21 +10,21 @@ Standards-Version: 3.9.3
 
 Package: psc-core
 Architecture: all
-Depends: ${misc:Depends}, git (>= 0), git-doc (>= 0), bash (>= 0),
- bash-doc (>= 0), vim (>= 0), vim-doc(>= 0), coreutils (>= 0),
- less (>= 0), apt-offline (>= 0), curl (>= 0), wget (>= 0),
+Depends: ${misc:Depends}, apt-offline (>= 0), bash (>= 0), bash-doc (>= 0),
+ coreutils (>= 0), curl (>= 0), git (>= 0), git-doc (>= 0),
+ less (>= 0), vim (>= 0), vim-doc(>= 0), wget (>= 0),
 Description: Collection of pretty-much essential packages
  This package provides nothing itself, but depends on lots of packages
  that the maintainer considers close-to-essential.  That is:
  .
-   * Git - the version control system
-   * Bash - the shell
-   * Vim - for editing files properly
-   * Less - because *everything* uses it
-   * Coreutils - for everything else
-   * Apt-Offline - getting packages without a network
-   * Curl - for getting stuff off the web
-   * Wget - also for getting stuff
+   * apt-offline - getting packages without a network
+   * bash - the shell
+   * coreutils - for everything else
+   * curl - for getting stuff off the web
+   * git - the version control system
+   * less - because *everything* uses it
+   * vim - for editing files properly
+   * wget - also for getting stuff
  .
  These are the bare minimum necessary to bootstrap a system.  Their
  documentation is also included.
