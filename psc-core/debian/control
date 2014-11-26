@@ -12,7 +12,7 @@ Package: psc-core
 Architecture: all
 Depends: ${misc:Depends}, apt-offline (>= 0), bash (>= 0), bash-doc (>= 0),
  coreutils (>= 0), curl (>= 0), git (>= 0), git-doc (>= 0),
- less (>= 0), vim (>= 0), vim-doc(>= 0), wget (>= 0),
+ less (>= 0), rsync (>= 0), vim (>= 0), vim-doc(>= 0), wget (>= 0),
 Description: Collection of pretty-much essential packages
  This package provides nothing itself, but depends on lots of packages
  that the maintainer considers close-to-essential.  That is:
@@ -23,8 +23,12 @@ Description: Collection of pretty-much essential packages
    * curl - for getting stuff off the web
    * git - the version control system
    * less - because *everything* uses it
+   * rsync - to pull data efficiently
    * vim - for editing files properly
    * wget - also for getting stuff
  .
  These are the bare minimum necessary to bootstrap a system.  Their
  documentation is also included.
+ .
+ Some of them might not seem completely necessary, but because
+ other packages recommend them they'd be installed anyway.
