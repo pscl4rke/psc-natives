@@ -1,6 +1,7 @@
 psc-core (1.1.0) UNRELEASED; urgency=low
 
   * Add rsync as a dependency.
+  * Add patch as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Wed, 26 Nov 2014 11:02:07 +0000
 
