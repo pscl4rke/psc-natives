@@ -4,5 +4,6 @@ psc-pydev (0.0.1) UNRELEASED; urgency=low
   * Add python2.7 as a dependency.
   * Add python-pip as a dependency.
   * Add python-virtualenv and virtualenvwrapper as dependencies.
+  * Add pep8 and pyflakes as dependencies.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Fri, 28 Nov 2014 10:47:58 +0000
