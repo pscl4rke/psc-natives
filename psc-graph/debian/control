@@ -11,7 +11,7 @@ Standards-Version: 3.9.3
 Package: psc-graph
 Architecture: all
 Depends: ${misc:Depends}, ghostscript, ghostscript-doc, groff,
- html2ps, imagemagick, imagemagick-doc, netpbm,
+ html2ps, imagemagick, imagemagick-doc, mupdf, mupdf-tools, netpbm,
  psutils, python-reportlab, python-reportlab-doc, tesseract-ocr,
 Description: Collection of packages for images and typesetting
  This package provides nothing itself, but depends on lots of packages
@@ -22,6 +22,8 @@ Description: Collection of packages for images and typesetting
    * groff - a typesetter (more than just groff-base)
    * html2ps - render documents on a page
    * imagemagick - convert image formats
+   * mupdf - to view PDF and XPS files
+   * mupdf-tools - command line converters
    * netpbm - more image conversion
    * psutils - rearrange postscript pages
    * python-reportlab - for my OCR tool
