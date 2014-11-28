@@ -2,5 +2,6 @@ psc-pydev (0.0.1) UNRELEASED; urgency=low
 
   * Initial Release.
   * Add python2.7 as a dependency.
+  * Add python-pip as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Fri, 28 Nov 2014 10:47:58 +0000
