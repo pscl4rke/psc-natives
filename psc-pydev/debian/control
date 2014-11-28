@@ -11,12 +11,14 @@ Standards-Version: 3.9.3
 Package: psc-pydev
 Architecture: all
 Depends: ${misc:Depends}, python2.7, python2.7-doc,
- python-pip,
+ python-pip, python-virtualenv, virtualenvwrapper,
 Description: Collecton of packages for Python development
  This package provides nothing itself, but depends on lots of
  packages that the maintainer uses when working in Python
  .
    * python2.7 - an actual interpreter
    * python-pip - to acquire libraries
+   * python-virtualenv - isolate dependencies
+   * virtualenvwrapper - makes virtualenv usable
  .
  Their documentation is also included.
