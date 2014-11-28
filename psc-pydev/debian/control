@@ -10,11 +10,11 @@ Standards-Version: 3.9.3
 
 Package: psc-pydev
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, python2.7, python2.7-doc,
 Description: Collecton of packages for Python development
  This package provides nothing itself, but depends on lots of
  packages that the maintainer uses when working in Python
  .
-   * (none so far)
+   * python2.7 - an actual interpreter
  .
  Their documentation is also included.
