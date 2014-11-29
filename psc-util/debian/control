@@ -14,7 +14,8 @@ Depends: ${misc:Depends}, ack-grep, antiword, apache2-utils, apcalc, bc,
  binutils, binutils-doc, bsdgames,
  catdoc, cloc, colordiff, dc, docx2txt, dos2unix, dnsutils, ed,
  fdupes, file, gpw, jq, m4, m4-doc,
- make, markdown, moreutils, mpc, msmtp, offlineimap, pv,
+ make, markdown, moreutils, mpc, msmtp,
+ netcat-openbsd, offlineimap, pv,
  realpath, rlwrap, sqlite3, sqlite3-doc,
  sshuttle, strace, telnet, tidy, tidy-doc,
  tofrodos, tree, uuid, whois,
@@ -48,6 +49,7 @@ Description: Collection of well-used command line utilities
    * moreutils - assorted stuff not in coreutils
    * mpc - connect to MPD servers
    * msmtp - to send emails
+   * netcat-openbsd - the version with `nc -U`
    * offlineimap - synchronise with mail servers
    * pv - pipe viewer - cat with a progress bar
    * realpath - follow symlinks
