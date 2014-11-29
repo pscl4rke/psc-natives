@@ -1,10 +1,10 @@
-psc-core (1.1.0) UNRELEASED; urgency=low
+psc-core (1.1.0) unstable; urgency=low
 
   * Add rsync as a dependency.
   * Add patch as a dependency.
   * Add openssh-client as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Wed, 26 Nov 2014 11:02:07 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 29 Nov 2014 19:40:02 +0000
 
 psc-core (1.0.1) unstable; urgency=low
 
