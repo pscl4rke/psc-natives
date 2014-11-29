@@ -1,11 +1,11 @@
-psc-graph (1.1.0) UNRELEASED; urgency=low
+psc-graph (1.1.0) unstable; urgency=low
 
   * Add python-reportlab as a dependency.
   * Add html2ps as a dependency.
   * Add mupdf and its -tools as dependencies.
   * Add libjpeg-progs as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Tue, 25 Nov 2014 20:06:12 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 29 Nov 2014 19:34:36 +0000
 
 psc-graph (1.0.0) unstable; urgency=low
 
