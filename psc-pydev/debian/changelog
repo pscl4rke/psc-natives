@@ -1,4 +1,4 @@
-psc-pydev (0.0.1) UNRELEASED; urgency=low
+psc-pydev (1.0.0) unstable; urgency=low
 
   * Initial Release.
   * Add python2.7 as a dependency.
@@ -6,4 +6,4 @@ psc-pydev (0.0.1) UNRELEASED; urgency=low
   * Add python-virtualenv and virtualenvwrapper as dependencies.
   * Add pep8 and pyflakes as dependencies.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Fri, 28 Nov 2014 10:47:58 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 29 Nov 2014 19:24:29 +0000
