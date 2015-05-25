@@ -1,3 +1,9 @@
+psc-pydev (1.1.0) UNRELEASED; urgency=medium
+
+  * Add python-nose as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Mon, 25 May 2015 17:03:36 +0100
+
 psc-pydev (1.0.0) unstable; urgency=low
 
   * Initial Release.

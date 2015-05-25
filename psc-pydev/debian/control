@@ -11,7 +11,7 @@ Standards-Version: 3.9.3
 Package: psc-pydev
 Architecture: all
 Depends: ${misc:Depends}, pep8, pyflakes, python2.7, python2.7-doc,
- python-pip, python-virtualenv, virtualenvwrapper,
+ python-nose, python-pip, python-virtualenv, virtualenvwrapper,
 Description: Collecton of packages for Python development
  This package provides nothing itself, but depends on lots of
  packages that the maintainer uses when working in Python
@@ -19,6 +19,7 @@ Description: Collecton of packages for Python development
    * pep8 - a style checker
    * pyflakes - static analysis
    * python2.7 - an actual interpreter
+   * python-nose - a common test runner
    * python-pip - to acquire libraries
    * python-virtualenv - isolate dependencies
    * virtualenvwrapper - makes virtualenv usable
