@@ -13,7 +13,7 @@ Architecture: all
 Depends: ${misc:Depends}, pep8, pyflakes, python2.7, python2.7-doc,
  python-nose, python-pip, python-virtualenv, virtualenvwrapper,
 Description: Collecton of packages for Python development
- This package provides nothing itself, but depends on lots of
+ This metapackage provides nothing itself, but depends on lots of
  packages that the maintainer uses when working in Python
  .
    * pep8 - a style checker

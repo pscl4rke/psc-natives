@@ -14,7 +14,7 @@ Depends: ${misc:Depends}, hexer, hnb, htop, default-mta | msmtp-mta, mutt,
  ncdu, ncmpcpp, screen,
  tig, w3m
 Description: Collection of well-known terminal applications
- This package provides nothing itself, but depends on lots of packages
+ This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly in terminal windows.  These are ones
  that use the full window space, probably using ncurses.
  .

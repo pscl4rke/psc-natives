@@ -20,7 +20,7 @@ Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
  sshuttle, strace, task-spooler, telnet, tidy, tidy-doc,
  tofrodos, tree, uuid, whois,
 Description: Collection of well-used command line utilities
- This package provides nothing itself, but depends on lots of packages
+ This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
  .
    * ack-grep - ack is better than grep
