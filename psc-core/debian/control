@@ -11,7 +11,7 @@ Standards-Version: 3.9.3
 Package: psc-core
 Architecture: all
 Depends: ${misc:Depends}, apt-offline (>= 0), bash (>= 0), bash-doc (>= 0),
- coreutils (>= 0), curl (>= 0), git (>= 0), git-doc (>= 0),
+ cifs-utils (>= 0), coreutils (>= 0), curl (>= 0), git (>= 0), git-doc (>= 0),
  less (>= 0), ncp (>= 0), openssh-client (>= 0), patch (>= 0), rsync (>= 0),
  vim (>= 0), vim-doc(>= 0), wget (>= 0),
 Description: Collection of pretty-much essential packages
@@ -20,6 +20,7 @@ Description: Collection of pretty-much essential packages
  .
    * apt-offline - getting packages without a network
    * bash - the shell
+   * cifs-utils - mount Windows SMB shares
    * coreutils - for everything else
    * curl - for getting stuff off the web
    * git - the version control system
