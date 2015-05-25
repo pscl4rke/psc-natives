@@ -10,8 +10,8 @@ Standards-Version: 3.9.3
 
 Package: psc-util
 Architecture: all
-Depends: ${misc:Depends}, ack-grep, antiword, apache2-utils, apcalc, bc,
- binutils, binutils-doc, bsdgames,
+Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
+ bc, binutils, binutils-doc, bsdgames,
  catdoc, cloc, colordiff, dc, docx2txt, dos2unix, dnsutils, ed,
  fdupes, file, gpw, jq, m4, m4-doc,
  make, markdown, moreutils, mpc, msmtp,
@@ -24,6 +24,7 @@ Description: Collection of well-used command line utilities
  that the maintainer uses regularly on the command line.  They are:
  .
    * ack-grep - ack is better than grep
+   * acpi - monitor batteries and temperatures
    * antiword - read MS .doc files
    * apache2-utils - for htpasswd manager
    * apcalc - for the `calc` calculator
