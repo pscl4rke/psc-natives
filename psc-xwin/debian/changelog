@@ -1,8 +1,8 @@
-psc-xwin (1.3.0) UNRELEASED; urgency=medium
+psc-xwin (1.3.0) unstable; urgency=medium
 
   * Add simpleswitcher as dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Mon, 25 May 2015 13:33:05 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Mon, 25 May 2015 19:57:10 +0100
 
 psc-xwin (1.2.0) unstable; urgency=low
 
