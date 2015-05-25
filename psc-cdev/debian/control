@@ -10,11 +10,12 @@ Standards-Version: 3.9.4
 
 Package: psc-cdev
 Architecture: all
-Depends: ${misc:Depends}, indent, indent-doc,
+Depends: ${misc:Depends}, build-essential, indent, indent-doc,
 Description: Collection of well-used C development programs
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly for C development.  They are:
  .
+   * build-essential - what Debian want for building
    * indent - reformat code to match standards
  .
  Their documentation is also included.
