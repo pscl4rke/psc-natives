@@ -1,0 +1,19 @@
+Source: psc-cdev
+Section: misc
+Priority: extra
+Maintainer: P. S. Clarke <debs@pscl4rke.net>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/psc-cdev.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/psc-cdev.git;a=summary
+
+Package: psc-cdev
+Architecture: all
+Depends: ${misc:Depends}
+Description: Collection of well-used C development programs
+ This metapackage provides nothing itself, but depends on lots of packages
+ that the maintainer uses regularly for C development.  They are:
+ .
+ .
+ Their documentation is also included.
