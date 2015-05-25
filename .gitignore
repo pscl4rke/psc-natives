@@ -1,13 +1,4 @@
 
-# Package building uses these as scratch space:
-psc-core/debian/psc-core/
-psc-util/debian/psc-util/
-psc-term/debian/psc-term/
-psc-xwin/debian/psc-xwin/
-psc-graph/debian/psc-graph/
-psc-pydev/debian/psc-pydev/
-psc-cdev/debian/psc-cdev/
-
 # And these don't seem valuable:
 */debian/files
 *.debhelper.log
@@ -25,3 +16,13 @@ Packages
 Packages.gz
 Release
 Release.gpg
+
+# Package building uses these as scratch space:
+#   This is at the bottom so the Makefile can add new entries.
+psc-core/debian/psc-core/
+psc-util/debian/psc-util/
+psc-term/debian/psc-term/
+psc-xwin/debian/psc-xwin/
+psc-graph/debian/psc-graph/
+psc-pydev/debian/psc-pydev/
+psc-cdev/debian/psc-cdev/

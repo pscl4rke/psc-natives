@@ -24,6 +24,7 @@ new:
 	sed -i 's|<url://example.com>|(none)|g' $(name)/debian/copyright
 	sed -i '/for another author/ d' $(name)/debian/copyright
 	sed -i '/^# / d' $(name)/debian/copyright
+	echo "$(name)/debian/$(name)/" >> .gitignore
 	@echo
 	@echo Still need to fix a few things in the control and
 	@echo copyright files
