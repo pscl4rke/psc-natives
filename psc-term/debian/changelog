@@ -1,8 +1,8 @@
-psc-term (1.2.0) UNRELEASED; urgency=medium
+psc-term (1.2.0) unstable; urgency=medium
 
   * Add hnb as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Mon, 25 May 2015 15:15:00 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Mon, 25 May 2015 19:54:00 +0100
 
 psc-term (1.1.0) unstable; urgency=low
 
