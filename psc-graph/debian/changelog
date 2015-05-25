@@ -1,3 +1,9 @@
+psc-graph (1.2.0) UNRELEASED; urgency=medium
+
+  * Add mp as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Mon, 25 May 2015 15:19:52 +0100
+
 psc-graph (1.1.0) unstable; urgency=low
 
   * Add python-reportlab as a dependency.
