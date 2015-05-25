@@ -1,3 +1,9 @@
+psc-core (1.2.0) UNRELEASED; urgency=medium
+
+  * Add ncp as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Mon, 25 May 2015 13:25:28 +0100
+
 psc-core (1.1.0) unstable; urgency=low
 
   * Add rsync as a dependency.
