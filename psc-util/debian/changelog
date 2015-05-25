@@ -1,4 +1,4 @@
-psc-util (1.5.0) UNRELEASED; urgency=medium
+psc-util (1.5.0) unstable; urgency=medium
 
   * Add task-spooler as a dependency.
   * Add acpi as a dependency.
@@ -6,7 +6,7 @@ psc-util (1.5.0) UNRELEASED; urgency=medium
   * Add sharutils as a dependency.
   * Add uudeview as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Mon, 25 May 2015 15:05:59 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Mon, 25 May 2015 19:55:34 +0100
 
 psc-util (1.4.0) unstable; urgency=low
 
