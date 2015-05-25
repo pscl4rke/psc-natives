@@ -1,4 +1,4 @@
-psc-cdev (1.0.0) UNRELEASED; urgency=low
+psc-cdev (1.0.0) unstable; urgency=low
 
   * Initial Release.
   * Add indent as a dependency.
@@ -6,4 +6,4 @@ psc-cdev (1.0.0) UNRELEASED; urgency=low
   * Add exuberant-ctags as a dependency.
   * Add valgrind as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Mon, 25 May 2015 17:33:22 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Mon, 25 May 2015 19:34:20 +0100
