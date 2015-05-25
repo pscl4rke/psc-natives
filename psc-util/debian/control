@@ -17,7 +17,7 @@ Depends: ${misc:Depends}, ack-grep, antiword, apache2-utils, apcalc, bc,
  make, markdown, moreutils, mpc, msmtp,
  netcat-openbsd, offlineimap, pv,
  realpath, rlwrap, sqlite3, sqlite3-doc,
- sshuttle, strace, telnet, tidy, tidy-doc,
+ sshuttle, strace, task-spooler, telnet, tidy, tidy-doc,
  tofrodos, tree, uuid, whois,
 Description: Collection of well-used command line utilities
  This package provides nothing itself, but depends on lots of packages
@@ -56,6 +56,7 @@ Description: Collection of well-used command line utilities
    * sqlite3 - a shell for databases
    * sshuttle - for quick n dirty VPNs
    * strace - to see what a program is doing
+   * task-spooler - a job queue
    * telnet - for crude networking
    * tidy - to clean up HTML and XML files
    * tofrodos - another crlf <-> lf converter
