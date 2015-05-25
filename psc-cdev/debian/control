@@ -11,7 +11,7 @@ Standards-Version: 3.9.4
 Package: psc-cdev
 Architecture: all
 Depends: ${misc:Depends}, build-essential, exuberant-ctags,
- indent, indent-doc,
+ indent, indent-doc, valgrind,
 Description: Collection of well-used C development programs
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly for C development.  They are:
@@ -19,5 +19,6 @@ Description: Collection of well-used C development programs
    * build-essential - what Debian want for building
    * exuberant-ctags - for improved IDE experience
    * indent - reformat code to match standards
+   * valgrind - detect some kinds of programmer error
  .
  Their documentation is also included.

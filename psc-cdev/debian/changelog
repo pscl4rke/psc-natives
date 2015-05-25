@@ -4,5 +4,6 @@ psc-cdev (1.0.0) UNRELEASED; urgency=low
   * Add indent as a dependency.
   * Add build-essential as a dependency.
   * Add exuberant-ctags as a dependency.
+  * Add valgrind as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Mon, 25 May 2015 17:33:22 +0100
