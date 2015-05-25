@@ -2,6 +2,7 @@ psc-util (1.5.0) UNRELEASED; urgency=medium
 
   * Add task-spooler as a dependency.
   * Add acpi as a dependency.
+  * Add qprint as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Mon, 25 May 2015 15:05:59 +0100
 

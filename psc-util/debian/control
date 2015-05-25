@@ -15,7 +15,7 @@ Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
  catdoc, cloc, colordiff, dc, docx2txt, dos2unix, dnsutils, ed,
  fdupes, file, gpw, jq, m4, m4-doc,
  make, markdown, moreutils, mpc, msmtp,
- netcat-openbsd, offlineimap, pv,
+ netcat-openbsd, offlineimap, pv, qprint, qprint-doc,
  realpath, rlwrap, sqlite3, sqlite3-doc,
  sshuttle, strace, task-spooler, telnet, tidy, tidy-doc,
  tofrodos, tree, uuid, whois,
@@ -53,6 +53,7 @@ Description: Collection of well-used command line utilities
    * netcat-openbsd - the version with `nc -U`
    * offlineimap - synchronise with mail servers
    * pv - pipe viewer - cat with a progress bar
+   * qprint - encode/decode quoted-printable text
    * realpath - follow symlinks
    * sqlite3 - a shell for databases
    * sshuttle - for quick n dirty VPNs
