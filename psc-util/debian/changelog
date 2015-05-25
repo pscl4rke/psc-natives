@@ -4,6 +4,7 @@ psc-util (1.5.0) UNRELEASED; urgency=medium
   * Add acpi as a dependency.
   * Add qprint as a dependency.
   * Add sharutils as a dependency.
+  * Add uudeview as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Mon, 25 May 2015 15:05:59 +0100
 
