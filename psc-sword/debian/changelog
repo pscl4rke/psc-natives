@@ -1,0 +1,6 @@
+psc-sword (1.0.0) unstable; urgency=low
+
+  * Initial Release.
+  * Add diatheke, libsword-dev, libsword-utils and xiphos.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 06 Feb 2016 13:14:46 +0000

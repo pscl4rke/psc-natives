@@ -1,0 +1,25 @@
+Source: psc-sword
+Section: misc
+Priority: optional
+Maintainer: P. S. Clarke <debs@pscl4rke.net>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/psc-sword.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/psc-sword.git;a=summary
+
+Package: psc-sword
+Architecture: all
+Depends: ${misc:Depends}, diatheke, libsword-dev, libsword-utils, xiphos
+Description: Collection of tools for using Sword Bible data
+ This metapackage provides nothing itself, but depends on lots of packages
+ that the maintainer uses for working with Sword data from CrossWire's
+ Bible project.  It assumes that the data files will be provided separately
+ to satisfy copyright holders.  The packages are:
+ .
+   * diatheke - Command-line tool for reading files
+   * libsword-dev - Compilation headers to build my own software
+   * libsword-utils - Assorted tools for working with the data
+   * xiphos - Gtk application for reading files
+ .
+ Their documentation is also included.
