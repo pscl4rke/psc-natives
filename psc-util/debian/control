@@ -18,7 +18,7 @@ Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
  netcat-openbsd, offlineimap, pv, qprint, qprint-doc,
  realpath, rlwrap, sharutils, sharutils-doc, sqlite3, sqlite3-doc,
  sshuttle, strace, task-spooler, telnet, tidy, tidy-doc,
- tofrodos, tree, uudeview, uuid, whois,
+ tofrodos, tree, uudeview, uuid, wdiff, wdiff-doc, whois,
 Description: Collection of well-used command line utilities
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
@@ -66,6 +66,7 @@ Description: Collection of well-used command line utilities
    * tree - to visualise a filesystem
    * uudeview - encode and decode lots of files
    * uuid - for random identifiers
+   * wdiff - to compare files within lines
    * whois - for `whois` and `mkpasswd`
  .
  Their documentation is also included.

@@ -1,3 +1,9 @@
+psc-util (1.5.1) UNRELEASED; urgency=medium
+
+  * Add wdiff as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sun, 07 Feb 2016 16:10:27 +0000
+
 psc-util (1.5.0) unstable; urgency=medium
 
   * Add task-spooler as a dependency.
