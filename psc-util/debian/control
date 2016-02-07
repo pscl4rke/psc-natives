@@ -13,12 +13,13 @@ Architecture: all
 Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
  bc, binutils, binutils-doc, bsdgames,
  catdoc, cloc, colordiff, dc, docx2txt, dos2unix, dnsutils, ed,
- fdupes, file, gpw, jq, m4, m4-doc,
+ fdupes, figlet, file, gpw, jq, m4, m4-doc,
  make, markdown, moreutils, mpc, msmtp,
  netcat-openbsd, offlineimap, pv, qprint, qprint-doc,
  realpath, rlwrap, remind, sharutils, sharutils-doc, sqlite3, sqlite3-doc,
- sshuttle, strace, task-spooler, telnet, tidy, tidy-doc,
- tofrodos, tree, units, uudeview, uuid, wdiff, wdiff-doc, whois,
+ sshuttle, strace, sysvbanner,
+ task-spooler, telnet, tidy, tidy-doc,
+ tofrodos, toilet, tree, units, uudeview, uuid, wdiff, wdiff-doc, whois,
 Description: Collection of well-used command line utilities
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
@@ -40,6 +41,7 @@ Description: Collection of well-used command line utilities
    * dnsutils - for `dig` and `nslookup`
    * ed - the editor you only use when desparate
    * fdupes - to find duplicates in a filesystem
+   * figlet - create more big banners of text
    * file - tell file types with magic numbers
    * gpw - to generate codenames and vanity handles
    * jq - for manipulating JSON
@@ -60,10 +62,12 @@ Description: Collection of well-used command line utilities
    * sqlite3 - a shell for databases
    * sshuttle - for quick n dirty VPNs
    * strace - to see what a program is doing
+   * sysvbanner - create big banners of text
    * task-spooler - a job queue
    * telnet - for crude networking
    * tidy - to clean up HTML and XML files
    * tofrodos - another crlf <-> lf converter
+   * toilet - create even more big banners o text
    * tree - to visualise a filesystem
    * units - convert between different units
    * uudeview - encode and decode lots of files
