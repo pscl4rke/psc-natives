@@ -2,6 +2,7 @@ psc-util (1.5.1) UNRELEASED; urgency=medium
 
   * Add wdiff as a dependency.
   * Add units as a dependency.
+  * Add remind as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sun, 07 Feb 2016 16:10:27 +0000
 
