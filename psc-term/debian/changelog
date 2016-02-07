@@ -1,3 +1,9 @@
+psc-term (1.2.1) UNRELEASED; urgency=medium
+
+  * Add wyrd as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sun, 07 Feb 2016 16:51:48 +0000
+
 psc-term (1.2.0) unstable; urgency=medium
 
   * Add hnb as a dependency.
