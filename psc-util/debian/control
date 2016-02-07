@@ -19,7 +19,7 @@ Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
  realpath, rlwrap, remind, sharutils, sharutils-doc, sqlite3, sqlite3-doc,
  sshuttle, strace, sysvbanner,
  task-spooler, telnet, tidy, tidy-doc,
- tofrodos, toilet, tree, units, uudeview, uuid, wdiff, wdiff-doc, whois,
+ tofrodos, toilet, tree, trim-c, units, uudeview, uuid, wdiff, wdiff-doc, whois,
 Description: Collection of well-used command line utilities
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
@@ -69,6 +69,7 @@ Description: Collection of well-used command line utilities
    * tofrodos - another crlf <-> lf converter
    * toilet - create even more big banners o text
    * tree - to visualise a filesystem
+   * trim-c - drop extra chars in long lines
    * units - convert between different units
    * uudeview - encode and decode lots of files
    * uuid - for random identifiers
