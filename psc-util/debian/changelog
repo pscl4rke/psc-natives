@@ -1,4 +1,4 @@
-psc-util (1.5.1) UNRELEASED; urgency=medium
+psc-util (1.6.0) unstable; urgency=medium
 
   * Add wdiff as a dependency.
   * Add units as a dependency.
@@ -6,7 +6,7 @@ psc-util (1.5.1) UNRELEASED; urgency=medium
   * Add sysvbanner, figlet and toilet as dependencies.
   * Add trim-c as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Sun, 07 Feb 2016 16:10:27 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Mon, 08 Feb 2016 23:06:05 +0000
 
 psc-util (1.5.0) unstable; urgency=medium
 
