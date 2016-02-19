@@ -1,3 +1,13 @@
+psc-term (1.3.1) unstable; urgency=medium
+
+  * Fix mail-transport-agent dependency.  Firstly because the default-mta
+    package is only satisfied by one thing (postfix), so I should be using
+    the mail-transport-agent virtual package instead.  And secondly
+    because APT will try and satisfy a dependency from left to right, so
+    msmtp-mta needs to come first if I want it to be the preferred MTA.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Fri, 19 Feb 2016 09:12:04 +0000
+
 psc-term (1.3.0) unstable; urgency=medium
 
   * Add wyrd as a dependency.

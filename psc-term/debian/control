@@ -10,7 +10,7 @@ Standards-Version: 3.9.3
 
 Package: psc-term
 Architecture: all
-Depends: ${misc:Depends}, hexer, hnb, htop, default-mta | msmtp-mta, mutt,
+Depends: ${misc:Depends}, hexer, hnb, htop, msmtp-mta | mail-transport-agent, mutt,
  ncdu, ncmpcpp, screen,
  tig, w3m, wyrd
 Description: Collection of well-known terminal applications
