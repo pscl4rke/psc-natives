@@ -2,6 +2,7 @@ psc-core (1.3.0) UNRELEASED; urgency=medium
 
   * Add `git-man` (in addition to `git-doc`) as a dependency.
   * Add `cryptsetup` as a dependency.
+  * Add `obnam` as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 16 Apr 2016 22:14:39 +0100
 
