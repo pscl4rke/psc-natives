@@ -1,0 +1,10 @@
+psc-scan (0.0.2) UNRELEASED; urgency=low
+
+  * Initial Release.
+  * Add sane-utils as a dependency.
+  * Add imagemagick as a dependency.
+  * Add tesseract-ocr as a dependency.
+  * Add python-reportlab as a dependency.
+  * Add rlwrap as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 14 May 2016 21:42:10 +0100
