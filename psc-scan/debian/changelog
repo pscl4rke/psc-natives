@@ -1,4 +1,4 @@
-psc-scan (0.0.2) UNRELEASED; urgency=low
+psc-scan (1.0.0) unstable; urgency=low
 
   * Initial Release.
   * Add sane-utils as a dependency.
@@ -7,4 +7,4 @@ psc-scan (0.0.2) UNRELEASED; urgency=low
   * Add python-reportlab as a dependency.
   * Add rlwrap as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Sat, 14 May 2016 21:42:10 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 14 May 2016 23:13:03 +0100
