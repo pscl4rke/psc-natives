@@ -10,7 +10,7 @@ Standards-Version: 3.9.3
 
 Package: psc-xwin
 Architecture: all
-Depends: ${misc:Depends}, arandr, openbox,
+Depends: ${misc:Depends}, arandr, dillo, openbox,
  libnotify-bin, libnotify-doc,
  rxvt-unicode, scrot, simpleswitcher, suckless-tools, sxiv,
  vim-gtk, wmctrl,
@@ -23,6 +23,7 @@ Description: Collection of toolkit-independent GUI tools
  mostly courtesy of package recommendations.
  .
    * arandr - wraps xrandr for multi-monitor
+   * dillo - ugly but lightweight html browser
    * openbox - an excellent window manager
    * libnotify-bin - to send messages to the screen
    * rxvt-unicode - the urxvt terminal
