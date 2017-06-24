@@ -12,7 +12,7 @@ Package: psc-xwin
 Architecture: all
 Depends: ${misc:Depends}, arandr, openbox,
  libnotify-bin, libnotify-doc,
- rxvt-unicode, scrot, simpleswitcher, suckless-tools,
+ rxvt-unicode, scrot, simpleswitcher, suckless-tools, sxiv,
  vim-gtk, wmctrl,
  x11-utils, xbacklight, xclip, xdotool, xmacro, zenity,
 Description: Collection of toolkit-independent GUI tools
@@ -29,6 +29,7 @@ Description: Collection of toolkit-independent GUI tools
    * scrot - for screenshots
    * simpleswitcher - interactive window finder
    * suckless-tools - for the excellent dmenu
+   * sxiv - minimalistic image viewer
    * vim-gtk - to edit odd things
    * wmctrl - for finding windows
    * x11-utils - little utilities
