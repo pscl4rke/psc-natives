@@ -3,7 +3,7 @@ Section: misc
 Priority: extra
 Maintainer: P. S. Clarke <debs@pscl4rke.net>
 Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
 #Homepage: <insert the upstream URL, if relevant>
 #Vcs-Git: git://git.debian.org/collab-maint/psc-xwin.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/psc-xwin.git;a=summary
