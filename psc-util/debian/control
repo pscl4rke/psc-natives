@@ -13,8 +13,8 @@ Architecture: all
 Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
  bc, binutils, binutils-doc, bsdgames,
  catdoc, cfv, cloc, colordiff, dc, docx2txt, dos2unix, dnsutils, ed,
- fdupes, figlet, file, gpw, jq, m4, m4-doc,
- make, markdown, moreutils, mpc, msmtp,
+ fdupes, figlet, file, gpw, jq, laptop-detect,
+ m4, m4-doc, make, markdown, moreutils, mpc, msmtp,
  netcat-openbsd, oathtool, offlineimap, openssl,
  pv, qprint, qprint-doc,
  realpath, rlwrap, remind, sharutils, sharutils-doc, sqlite3, sqlite3-doc,
@@ -47,6 +47,7 @@ Description: Collection of well-used command line utilities
    * file - tell file types with magic numbers
    * gpw - to generate codenames and vanity handles
    * jq - for manipulating JSON
+   * laptop-detect - guess type of computer
    * m4 - a text preprocessor
    * make - to build all sorts of things
    * markdown - the text-to-html converter (pl version)
