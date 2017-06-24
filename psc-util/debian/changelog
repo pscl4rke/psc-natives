@@ -5,6 +5,7 @@ psc-util (1.7.0) UNRELEASED; urgency=medium
   * Add openssl as a dependency.
   * Add laptop-detect as a dependency.
   * Add bsdmainutils as a dependency.
+  * Add tnef as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 24 Jun 2017 15:35:27 +0100
 

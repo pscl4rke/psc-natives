@@ -19,7 +19,7 @@ Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
  pv, qprint, qprint-doc,
  realpath, rlwrap, remind, sharutils, sharutils-doc, sqlite3, sqlite3-doc,
  sshuttle, strace, sysvbanner,
- task-spooler, telnet, tidy, tidy-doc,
+ task-spooler, telnet, tidy, tidy-doc, tnef,
  tofrodos, toilet, tree, trim-c, units, uudeview, uuid, wdiff, wdiff-doc, whois,
 Description: Collection of well-used command line utilities
  This metapackage provides nothing itself, but depends on lots of packages
@@ -72,6 +72,7 @@ Description: Collection of well-used command line utilities
    * task-spooler - a job queue
    * telnet - for crude networking
    * tidy - to clean up HTML and XML files
+   * tnef - unpack winmail.dat attachments
    * tofrodos - another crlf <-> lf converter
    * toilet - create even more big banners o text
    * tree - to visualise a filesystem
