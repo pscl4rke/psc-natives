@@ -1,4 +1,4 @@
-psc-util (1.7.0) UNRELEASED; urgency=medium
+psc-util (1.7.0) unstable; urgency=medium
 
   * Add cfv as a dependency.
   * Add oathtool as a dependency.
@@ -7,7 +7,7 @@ psc-util (1.7.0) UNRELEASED; urgency=medium
   * Add bsdmainutils as a dependency.
   * Add tnef as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Sat, 24 Jun 2017 15:35:27 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 24 Jun 2017 20:47:00 +0100
 
 psc-util (1.6.0) unstable; urgency=medium
 
