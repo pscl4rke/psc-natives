@@ -15,7 +15,8 @@ Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
  catdoc, cfv, cloc, colordiff, dc, docx2txt, dos2unix, dnsutils, ed,
  fdupes, figlet, file, gpw, jq, m4, m4-doc,
  make, markdown, moreutils, mpc, msmtp,
- netcat-openbsd, oathtool, offlineimap, pv, qprint, qprint-doc,
+ netcat-openbsd, oathtool, offlineimap, openssl,
+ pv, qprint, qprint-doc,
  realpath, rlwrap, remind, sharutils, sharutils-doc, sqlite3, sqlite3-doc,
  sshuttle, strace, sysvbanner,
  task-spooler, telnet, tidy, tidy-doc,
@@ -55,6 +56,7 @@ Description: Collection of well-used command line utilities
    * netcat-openbsd - the version with `nc -U`
    * oathtool - TOTP two-factor authentication
    * offlineimap - synchronise with mail servers
+   * openssl - manage encryption and certificates
    * pv - pipe viewer - cat with a progress bar
    * qprint - encode/decode quoted-printable text
    * realpath - follow symlinks
