@@ -1,0 +1,23 @@
+Source: psc-bind
+Section: misc
+Priority: optional
+Maintainer: P. S. Clarke <debs@pscl4rke.net>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.5
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/psc-bind.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/psc-bind.git;a=summary
+
+Package: psc-bind
+Architecture: all
+Depends: ${misc:Depends}
+Description: Collection of header files for language bindings
+ This metapackage provides nothing itself, but depends on lots of
+ development packages for frequently-used libraries.  This is partly
+ to make them available for building, but particularly to make them
+ available for higher level languages when third-party developers
+ distribute modules that bind to a C implementation.  For example,
+ using pip to install MySQLdb in Python.
+ .
+ .
+ Their documentation is also included.
