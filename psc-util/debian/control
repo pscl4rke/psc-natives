@@ -12,7 +12,7 @@ Package: psc-util
 Architecture: all
 Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
  bc, binutils, binutils-doc, bsdgames,
- catdoc, cloc, colordiff, dc, docx2txt, dos2unix, dnsutils, ed,
+ catdoc, cfv, cloc, colordiff, dc, docx2txt, dos2unix, dnsutils, ed,
  fdupes, figlet, file, gpw, jq, m4, m4-doc,
  make, markdown, moreutils, mpc, msmtp,
  netcat-openbsd, offlineimap, pv, qprint, qprint-doc,
@@ -33,6 +33,7 @@ Description: Collection of well-used command line utilities
    * binutils - only for `strings` really
    * bsdgames - for serious stuff, like rot13
    * catdoc - also includes `catppt` and `xls2csv`
+   * cfv - create and verify checksum hash files
    * cloc - count lines of code
    * colordiff - for more readable deltas
    * dc - for reverse polish calculations
