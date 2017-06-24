@@ -10,7 +10,8 @@ Standards-Version: 3.9.5
 
 Package: psc-bind
 Architecture: all
-Depends: ${misc:Depends}, libffi-dev, libssl-dev, libssl-doc
+Depends: ${misc:Depends}, libffi-dev, libmysqlclient-dev,
+ libpq-dev, libssl-dev, libssl-doc
 Description: Collection of header files for language bindings
  This metapackage provides nothing itself, but depends on lots of
  development packages for frequently-used libraries.  This is partly
@@ -20,6 +21,8 @@ Description: Collection of header files for language bindings
  using pip to install MySQLdb in Python.
  .
    * libffi-dev - foreign function interface
+   * libmysqlclient-dev - connect to MySQL
+   * libpq-dev - connect to PostgreSQL
    * libssl-dev - the infamous OpenSSL
  .
  Their documentation is also included.

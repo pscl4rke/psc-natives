@@ -2,5 +2,6 @@ psc-bind (1.0.0) UNRELEASED; urgency=medium
 
   * Initial Release.
   * Add libffi-dev and libssl-dev as dependencies.
+  * Add libmysqlclient-dev and libpq-dev as dependencies.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 24 Jun 2017 20:03:02 +0100
