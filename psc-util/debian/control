@@ -11,7 +11,7 @@ Standards-Version: 3.9.3
 Package: psc-util
 Architecture: all
 Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
- bc, binutils, binutils-doc, bsdgames,
+ bc, binutils, binutils-doc, bsdgames, bsdmainutils,
  catdoc, cfv, cloc, colordiff, dc, docx2txt, dos2unix, dnsutils, ed,
  fdupes, figlet, file, gpw, jq, laptop-detect,
  m4, m4-doc, make, markdown, moreutils, mpc, msmtp,
@@ -33,6 +33,7 @@ Description: Collection of well-used command line utilities
    * bc - for another calculator
    * binutils - only for `strings` really
    * bsdgames - for serious stuff, like rot13
+   * bsdmainutils - esp. for `calendar` and `column`
    * catdoc - also includes `catppt` and `xls2csv`
    * cfv - create and verify checksum hash files
    * cloc - count lines of code
