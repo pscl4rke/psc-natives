@@ -3,6 +3,7 @@ psc-xwin (1.4.0) UNRELEASED; urgency=medium
   * Add xbacklight as a dependency.
   * Add sxiv as a dependency.
   * Add dillo as a dependency.
+  * Add xteddy as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 24 Jun 2017 15:52:03 +0100
 

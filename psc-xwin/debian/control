@@ -14,7 +14,7 @@ Depends: ${misc:Depends}, arandr, dillo, openbox,
  libnotify-bin, libnotify-doc,
  rxvt-unicode, scrot, simpleswitcher, suckless-tools, sxiv,
  vim-gtk, wmctrl,
- x11-utils, xbacklight, xclip, xdotool, xmacro, zenity,
+ x11-utils, xbacklight, xclip, xdotool, xmacro, xteddy, zenity,
 Description: Collection of toolkit-independent GUI tools
  This metapackage provides nothing itself, but depends upon packages
  that the maintainer considers important for working in X windows
@@ -38,6 +38,7 @@ Description: Collection of toolkit-independent GUI tools
    * xclip - to manage the clipboards
    * xdotool - generate fake keystrokes
    * xmacro - largely replaced by xdotool
+   * xteddy - furry companion
    * zenity - for scriptable popups
  .
  Their documentation is also included.
