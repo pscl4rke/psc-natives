@@ -1,6 +1,7 @@
 
 # And these don't seem valuable:
 */debian/files
+*/debian/debhelper-build-stamp
 *.debhelper.log
 *.substvars
 
@@ -10,6 +11,7 @@
 /*.deb
 /*.dsc
 /*.tar.gz
+/*.tar.xz
 
 # And then the indices etc are built:
 Packages
