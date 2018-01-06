@@ -1,9 +1,9 @@
-psc-cdev (1.1.0) UNRELEASED; urgency=low
+psc-cdev (1.1.0) unstable; urgency=low
 
   * Replace the build-essential dependency with a more specific
     list: make, libc-dev, gcc, g++.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Sat, 06 Jan 2018 16:57:10 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 06 Jan 2018 17:59:22 +0000
 
 psc-cdev (1.0.0) unstable; urgency=low
 
