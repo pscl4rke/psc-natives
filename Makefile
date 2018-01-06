@@ -18,6 +18,7 @@ new:
 	rm $(name)/debian/*.EX
 	rm $(name)/debian/README*
 	rm $(name)/debian/docs*
+	rm $(name)/debian/*.docs
 	sed -i 's/unstable/UNRELEASED/' $(name)/debian/changelog
 	sed -i 's/unknown/misc/' $(name)/debian/control
 	sed -i 's/^Homep/#Homep/' $(name)/debian/control
