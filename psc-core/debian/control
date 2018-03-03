@@ -28,7 +28,7 @@ Description: Collection of pretty-much essential packages
    * cryptsetup - to use encrypted drives
    * curl - for getting stuff off the web
    * git - the version control system
-   * gnupg - least-worst cryptograpy
+   * gnupg - least-worst cryptography
    * less - because *everything* uses it
    * ncp - to npush/npoll across net (packaged myself)
    * nmap - to find network neighbours
