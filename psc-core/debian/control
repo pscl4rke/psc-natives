@@ -10,12 +10,13 @@ Standards-Version: 3.9.5
 
 Package: psc-core
 Architecture: all
-Depends: ${misc:Depends}, apt-offline (>= 0), bash (>= 0), bash-doc (>= 0),
- cifs-utils (>= 0), coreutils (>= 0), cryptsetup (>= 0), curl (>= 0),
- git (>= 0), git-doc (>= 0), git-man (>= 0), gnupg (>= 0), gnupg-doc (>= 0),
- less (>= 0), ncp (>= 0), nmap (>= 0), obnam (>= 0), openssh-client (>= 0),
- patch (>= 0), rsync (>= 0),
- vim (>= 0), vim-doc(>= 0), wget (>= 0),
+Depends: ${misc:Depends},
+ apt-offline, bash (>= 0), bash-doc,
+ cifs-utils, coreutils (>= 0), cryptsetup, curl,
+ git, git-doc, git-man, gnupg, gnupg-doc,
+ less, ncp, nmap, obnam, openssh-client,
+ patch, rsync,
+ vim, vim-doc, wget,
 Description: Collection of pretty-much essential packages
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer considers close-to-essential.  That is:
