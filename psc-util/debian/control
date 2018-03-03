@@ -16,7 +16,7 @@ Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
  fdupes, figlet, file, gpw, hledger, jq, laptop-detect,
  m4, m4-doc, make, make-doc, markdown, moreutils, mpc, msmtp,
  netcat-openbsd, oathtool, offlineimap, openssl,
- patch, pv, qprint, qprint-doc, quilt,
+ par, patch, pv, qprint, qprint-doc, quilt,
  realpath, rlwrap, remind, sharutils, sharutils-doc, sqlite3, sqlite3-doc,
  sshuttle, strace, sysvbanner,
  task-spooler, telnet, tidy, tidy-doc, tnef,
@@ -60,6 +60,7 @@ Description: Collection of well-used command line utilities
    * oathtool - TOTP two-factor authentication
    * offlineimap - synchronise with mail servers
    * openssl - manage encryption and certificates
+   * par - reformats paragraphs
    * patch - to apply diffs
    * pv - pipe viewer - cat with a progress bar
    * qprint - encode/decode quoted-printable text
