@@ -43,7 +43,7 @@ Description: Collection of well-used command line utilities
    * docx2txt - read MS .docx files
    * dos2unix - the original crlf <-> lf converter
    * dnsutils - for `dig` and `nslookup`
-   * ed - the editor you only use when desparate
+   * ed - the editor you only use when desperate
    * fdupes - to find duplicates in a filesystem
    * figlet - create more big banners of text
    * file - tell file types with magic numbers
