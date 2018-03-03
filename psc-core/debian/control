@@ -14,7 +14,7 @@ Depends: ${misc:Depends},
  apt-offline, bash (>= 0), bash-doc,
  cifs-utils, coreutils (>= 0), cryptsetup, curl,
  git, git-doc, git-man, gnupg, gnupg-doc,
- less, ncp, nmap, obnam, openssh-client,
+ less, ncp, nmap, openssh-client,
  rsync, tar (>= 0), tar-doc, unzip,
  vim, vim-doc, wget,
 Description: Collection of pretty-much essential packages
@@ -32,7 +32,6 @@ Description: Collection of pretty-much essential packages
    * less - because *everything* uses it
    * ncp - to npush/npoll across net (packaged myself)
    * nmap - to find network neighbours
-   * obnam - restore from backups
    * openssh-client - to connect to servers
    * rsync - to pull data efficiently
    * tar - unpack data from tarballs

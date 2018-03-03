@@ -4,6 +4,7 @@ psc-core (1.4.0) UNRELEASED; urgency=medium
   * Add unzip as a dependency.
   * Add tar as a dependency.
   * Relegate patch from psc-core to psc-util.
+  * Remove obnam as a dependency due to deprecation.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 03 Mar 2018 15:51:31 +0000
 
