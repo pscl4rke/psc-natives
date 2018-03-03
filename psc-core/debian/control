@@ -15,7 +15,7 @@ Depends: ${misc:Depends},
  cifs-utils, coreutils (>= 0), cryptsetup, curl,
  git, git-doc, git-man, gnupg, gnupg-doc,
  less, ncp, nmap, obnam, openssh-client,
- patch, rsync, tar (>= 0), tar-doc, unzip,
+ rsync, tar (>= 0), tar-doc, unzip,
  vim, vim-doc, wget,
 Description: Collection of pretty-much essential packages
  This metapackage provides nothing itself, but depends on lots of packages
@@ -34,7 +34,6 @@ Description: Collection of pretty-much essential packages
    * nmap - to find network neighbours
    * obnam - restore from backups
    * openssh-client - to connect to servers
-   * patch - to apply diffs
    * rsync - to pull data efficiently
    * tar - unpack data from tarballs
    * unzip - unpack data from .zip files

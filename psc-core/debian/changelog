@@ -3,6 +3,7 @@ psc-core (1.4.0) UNRELEASED; urgency=medium
   * Keep only the version specifiers that lintian demands.
   * Add unzip as a dependency.
   * Add tar as a dependency.
+  * Relegate patch from psc-core to psc-util.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 03 Mar 2018 15:51:31 +0000
 
