@@ -2,6 +2,7 @@ psc-util (1.8.0) UNRELEASED; urgency=medium
 
   * Add make-doc as a dependency.
   * Add quilt as a dependency.
+  * Add hledger as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 03 Mar 2018 11:00:30 +0000
 

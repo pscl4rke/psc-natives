@@ -13,7 +13,7 @@ Architecture: all
 Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
  bc, binutils, binutils-doc, bsdgames, bsdmainutils,
  catdoc, cfv, cloc, colordiff, dc, docx2txt, dos2unix, dnsutils, ed,
- fdupes, figlet, file, gpw, jq, laptop-detect,
+ fdupes, figlet, file, gpw, hledger, jq, laptop-detect,
  m4, m4-doc, make, make-doc, markdown, moreutils, mpc, msmtp,
  netcat-openbsd, oathtool, offlineimap, openssl,
  pv, qprint, qprint-doc, quilt,
@@ -47,6 +47,7 @@ Description: Collection of well-used command line utilities
    * figlet - create more big banners of text
    * file - tell file types with magic numbers
    * gpw - to generate codenames and vanity handles
+   * hledger - to balance the books
    * jq - for manipulating JSON
    * laptop-detect - guess type of computer
    * m4 - a text preprocessor
