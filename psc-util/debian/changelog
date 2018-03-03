@@ -5,6 +5,7 @@ psc-util (1.8.0) UNRELEASED; urgency=medium
   * Add hledger as a dependency.
   * Add patch as a dependency.
   * Add par as a dependency.
+  * Add xlsx2csv as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 03 Mar 2018 11:00:30 +0000
 
