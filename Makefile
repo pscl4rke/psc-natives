@@ -1,4 +1,8 @@
 
+# For the benefit of dh_make...
+export DEBFULLNAME = P. S. Clarke
+export DEBEMAIL = debs@pscl4rke.net
+
 dummy:
 	@echo "Usage:"
 	@echo "  make status - show current versions of packages"
