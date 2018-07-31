@@ -2,11 +2,8 @@ Source: psc-scan
 Section: misc
 Priority: optional
 Maintainer: P. S. Clarke <debs@pscl4rke.net>
-Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.4
-#Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/psc-scan.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/psc-scan.git;a=summary
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
 
 Package: psc-scan
 Architecture: all

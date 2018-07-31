@@ -1,14 +1,13 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: psc-xwin
 Source: (none)
 
 Files: *
 Copyright: 2014 P. S. Clarke <debs@pscl4rke.net>
-License: None
- This is a personal package, and not licensed. Boo.
+License: GPL-3.0+
 
 Files: debian/*
-Copyright: 2014 P. S. Clarke
+Copyright: 2014 P. S. Clarke <debs@pscl4rke.net>
 License: GPL-3.0+
 
 License: GPL-3.0+
