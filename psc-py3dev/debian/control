@@ -1,0 +1,27 @@
+Source: psc-py3dev
+Section: misc
+Priority: optional
+Maintainer: P. S. Clarke <debs@pscl4rke.net>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+
+Package: psc-py3dev
+Architecture: all
+Depends: ${misc:Depends},
+ python3, python3-doc, python3-dev,
+ python3-pep8, python3-pyflakes, python3-venv,
+ python3-pip, python3-virtualenv, virtualenvwrapper,
+Description: Collecton of packages for Python 3 development
+ This metapackage provides nothing itself, but depends on lots of
+ packages that the maintainer uses when working in Python.
+ .
+   * python3 - an actual interpreter
+   * python3-dev - to use wrapped C libraries
+   * python3-pep8 - a style checker
+   * python3-pyflakes - static analysis
+   * python3-venv - allow `ensure-pip` to work
+   * python3-pip - to acquire libraries
+   * python3-virtualenv - isolate dependencies
+   * virtualenvwrapper - makes virtualenv usable
+ .
+ Their documentation is also included.
