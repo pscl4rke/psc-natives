@@ -1,3 +1,10 @@
+psc-py3dev (0.0.3) unstable; urgency=medium
+
+  * Don't depend on virtualenvwrapper because it needs Python 2.
+  * Don't depend on python3-pyflakes because it recommends Python 2.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Fri, 03 Aug 2018 10:23:21 +0100
+
 psc-py3dev (0.0.2) unstable; urgency=medium
 
   * Initial Release.
