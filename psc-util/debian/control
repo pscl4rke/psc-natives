@@ -14,9 +14,9 @@ Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
  m4, m4-doc, make, make-doc, markdown, moreutils, mpc, msmtp,
  netcat-openbsd, oathtool, offlineimap, openssl,
  par, patch, pv, qprint, qprint-doc, quilt,
- realpath, rlwrap, remind, sharutils, sharutils-doc, sqlite3, sqlite3-doc,
+ rlwrap, remind, sharutils, sharutils-doc, sqlite3, sqlite3-doc,
  sshuttle, strace, sysvbanner,
- task-spooler, telnet, tidy, tidy-doc, tnef,
+ task-spooler, telnet, tidy, tnef,
  tofrodos, toilet, tree, trim-c, units, uudeview, uuid,
  wdiff, wdiff-doc, whois, xlsx2csv,
 Description: Collection of well-used command line utilities
@@ -63,7 +63,6 @@ Description: Collection of well-used command line utilities
    * pv - pipe viewer - cat with a progress bar
    * qprint - encode/decode quoted-printable text
    * quilt - manage sets of patches to apply
-   * realpath - follow symlinks
    * rlwrap - add readline to a program shells
    * remind - calendar of recurring events
    * sharutils - handle shar and uuencode files
