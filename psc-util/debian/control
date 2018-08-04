@@ -7,7 +7,8 @@ Standards-Version: 3.9.6
 
 Package: psc-util
 Architecture: all
-Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
+Depends: ${misc:Depends},
+ adb, ack-grep, acpi, antiword, apache2-utils, apcalc,
  bc, binutils, binutils-doc, bsdgames, bsdmainutils,
  catdoc, cfv, cloc, colordiff, dc, docx2txt, dos2unix, dnsutils, ed,
  fdupes, figlet, file, gpw, hledger, jq, laptop-detect,
@@ -24,6 +25,7 @@ Description: Collection of well-used command line utilities
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
  .
+   * adb - manage Android phones
    * ack-grep - ack is better than grep
    * acpi - monitor batteries and temperatures
    * antiword - read MS .doc files
