@@ -8,14 +8,14 @@ Standards-Version: 3.9.6
 Package: psc-scan
 Architecture: all
 Depends: ${misc:Depends}, imagemagick, imagemagick-doc,
- python-reportlab, python-reportlab-doc,
+ python-reportlab-doc, python3-reportlab,
  rlwrap, sane-utils, tesseract-ocr,
 Description: Collection of packages for scanning and filing papers
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses for scanning in paperwork.  They are:
  .
    * imagemagick - for mogrify to rotate images
-   * python-reportlab - to build the PDFs
+   * python3-reportlab - to build the PDFs
    * rlwrap - gives readline support to the wizard
    * sane-utils - for the scanimage tool
    * tesseract-ocr - to read text out of images
