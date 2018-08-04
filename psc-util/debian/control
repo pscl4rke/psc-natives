@@ -14,7 +14,8 @@ Depends: ${misc:Depends}, ack-grep, acpi, antiword, apache2-utils, apcalc,
  m4, m4-doc, make, make-doc, markdown, moreutils, mpc, msmtp,
  netcat-openbsd, oathtool, offlineimap, openssl,
  par, patch, pv, qprint, qprint-doc, quilt,
- rlwrap, remind, sharutils, sharutils-doc, sqlite3, sqlite3-doc,
+ rlwrap, remind,
+ sharutils, sharutils-doc, sitecopy, sqlite3, sqlite3-doc,
  sshuttle, strace, sysvbanner,
  task-spooler, telnet, tidy, tnef,
  tofrodos, toilet, tree, trim-c, units, uudeview, uuid,
@@ -66,6 +67,7 @@ Description: Collection of well-used command line utilities
    * rlwrap - add readline to a program shells
    * remind - calendar of recurring events
    * sharutils - handle shar and uuencode files
+   * sitecopy - upload files to FTP servers
    * sqlite3 - a shell for databases
    * sshuttle - for quick n dirty VPNs
    * strace - to see what a program is doing
