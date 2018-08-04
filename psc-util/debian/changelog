@@ -4,6 +4,7 @@ psc-util (1.9.0) UNRELEASED; urgency=medium
   * Drop realpath as a dependency as it has been merged into coreutils.
   * Add sitecopy as a dependency.
   * Add adb as a dependency.
+  * Add eyed3 as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 04 Aug 2018 15:52:01 +0100
 

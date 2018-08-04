@@ -10,7 +10,8 @@ Architecture: all
 Depends: ${misc:Depends},
  adb, ack-grep, acpi, antiword, apache2-utils, apcalc,
  bc, binutils, binutils-doc, bsdgames, bsdmainutils,
- catdoc, cfv, cloc, colordiff, dc, docx2txt, dos2unix, dnsutils, ed,
+ catdoc, cfv, cloc, colordiff,
+ dc, docx2txt, dos2unix, dnsutils, ed, eyed3,
  fdupes, figlet, file, gpw, hledger, jq, laptop-detect,
  m4, m4-doc, make, make-doc, markdown, moreutils, mpc, msmtp,
  netcat-openbsd, oathtool, offlineimap, openssl,
@@ -44,6 +45,7 @@ Description: Collection of well-used command line utilities
    * dos2unix - the original crlf <-> lf converter
    * dnsutils - for `dig` and `nslookup`
    * ed - the editor you only use when desperate
+   * eyed3 - view and edit MP3 metadata
    * fdupes - to find duplicates in a filesystem
    * figlet - create more big banners of text
    * file - tell file types with magic numbers
