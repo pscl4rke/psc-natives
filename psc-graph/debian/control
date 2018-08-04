@@ -10,7 +10,7 @@ Architecture: all
 Depends: ${misc:Depends}, ghostscript, ghostscript-doc, groff,
  html2ps, imagemagick, imagemagick-doc,
  libjpeg-progs, mp, mupdf, mupdf-tools, netpbm,
- psutils, python-reportlab, python-reportlab-doc, tesseract-ocr,
+ psutils,
 Description: Collection of packages for images and typesetting
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer finds valuable for handling images and doing page
@@ -26,7 +26,5 @@ Description: Collection of packages for images and typesetting
    * mupdf-tools - command line converters
    * netpbm - more image conversion
    * psutils - rearrange postscript pages
-   * python-reportlab - for my OCR tool
-   * tesseract-ocr - the best image-to-text
  .
  Their documentation is also included.
