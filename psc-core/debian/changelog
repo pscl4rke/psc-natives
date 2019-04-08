@@ -1,3 +1,9 @@
+psc-core (1.5.0) UNRELEASED; urgency=medium
+
+  * Remove apt-offline due to Python 2 and lack of use.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Mon, 08 Apr 2019 22:10:33 +0100
+
 psc-core (1.4.0) unstable; urgency=medium
 
   * Keep only the version specifiers that lintian demands.

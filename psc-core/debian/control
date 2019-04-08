@@ -8,7 +8,7 @@ Standards-Version: 3.9.6
 Package: psc-core
 Architecture: all
 Depends: ${misc:Depends},
- apt-offline, bash (>= 0), bash-doc,
+ bash (>= 0), bash-doc,
  cifs-utils, coreutils (>= 0), cryptsetup, curl,
  git, git-doc, git-man, gnupg, gnupg-doc,
  less, ncp, nmap, openssh-client,
@@ -18,7 +18,6 @@ Description: Collection of pretty-much essential packages
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer considers close-to-essential.  That is:
  .
-   * apt-offline - getting packages without a network
    * bash - the shell
    * cifs-utils - mount Windows SMB shares
    * coreutils - for everything else
