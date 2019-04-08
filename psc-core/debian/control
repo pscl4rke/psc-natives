@@ -10,7 +10,7 @@ Architecture: all
 Depends: ${misc:Depends},
  bash (>= 0), bash-doc,
  cifs-utils, coreutils (>= 0), cryptsetup, curl,
- git, git-doc, git-man, gnupg, gnupg-doc,
+ git, git-doc, git-man, gnupg,
  less, ncp, nmap, openssh-client,
  rsync, tar (>= 0), tar-doc, unzip,
  vim, vim-doc, wget,
