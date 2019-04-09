@@ -1,6 +1,7 @@
 psc-util (1.10.0) UNRELEASED; urgency=medium
 
   * Drop cfv as a dependency due to Python 2 and lack of sha256.
+  * Add rhash and hashdeep as dependencies.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Tue, 09 Apr 2019 07:56:15 +0100
 

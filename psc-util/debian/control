@@ -12,11 +12,12 @@ Depends: ${misc:Depends},
  bc, binutils, binutils-doc, bsdgames, bsdmainutils,
  catdoc, cloc, colordiff,
  dc, docx2txt, dos2unix, dnsutils, ed, eyed3,
- fdupes, figlet, file, gpw, hledger, jq, laptop-detect,
+ fdupes, figlet, file, gpw,
+ hashdeep, hledger, jq, laptop-detect,
  m4, m4-doc, make, make-doc, markdown, moreutils, mpc, msmtp,
  netcat-openbsd, oathtool, offlineimap, openssl,
  par, patch, pv, qprint, qprint-doc, quilt,
- rlwrap, remind,
+ remind, rhash, rlwrap,
  sharutils, sharutils-doc, sitecopy, sqlite3, sqlite3-doc,
  sshuttle, strace, sysvbanner,
  task-spooler, telnet, tidy, tnef,
@@ -49,6 +50,7 @@ Description: Collection of well-used command line utilities
    * figlet - create more big banners of text
    * file - tell file types with magic numbers
    * gpw - to generate codenames and vanity handles
+   * hashdeep - formerly called md5deep
    * hledger - to balance the books
    * jq - for manipulating JSON
    * laptop-detect - guess type of computer
@@ -67,8 +69,9 @@ Description: Collection of well-used command line utilities
    * pv - pipe viewer - cat with a progress bar
    * qprint - encode/decode quoted-printable text
    * quilt - manage sets of patches to apply
-   * rlwrap - add readline to a program shells
    * remind - calendar of recurring events
+   * rhash - many different checksums
+   * rlwrap - add readline to a program shells
    * sharutils - handle shar and uuencode files
    * sitecopy - upload files to FTP servers
    * sqlite3 - a shell for databases
