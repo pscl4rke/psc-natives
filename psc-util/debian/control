@@ -12,7 +12,7 @@ Depends: ${misc:Depends},
  bc, binutils, binutils-doc, bsdgames, bsdmainutils,
  catdoc, cloc, colordiff,
  dc, docx2txt, dos2unix, dnsutils, ed, eyed3,
- fdupes, figlet, file, gpw,
+ fdupes, figlet, file, gettext-base, gpw,
  hashdeep, hledger, jq, laptop-detect,
  m4, m4-doc, make, make-doc, markdown, moreutils, mpc, msmtp,
  netcat-openbsd, oathtool, offlineimap, openssl,
@@ -49,6 +49,7 @@ Description: Collection of well-used command line utilities
    * fdupes - to find duplicates in a filesystem
    * figlet - create more big banners of text
    * file - tell file types with magic numbers
+   * gettext-base - for `envsubst` templating
    * gpw - to generate codenames and vanity handles
    * hashdeep - formerly called md5deep
    * hledger - to balance the books
