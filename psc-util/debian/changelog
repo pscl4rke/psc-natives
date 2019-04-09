@@ -1,4 +1,4 @@
-psc-util (1.10.0) UNRELEASED; urgency=medium
+psc-util (1.10.0) unstable; urgency=medium
 
   * Drop cfv as a dependency due to Python 2 and lack of sha256.
   * Add rhash and hashdeep as dependencies.
@@ -7,7 +7,7 @@ psc-util (1.10.0) UNRELEASED; urgency=medium
   * Add maildir-utils as a dependency.
   * Add bsdutils as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Tue, 09 Apr 2019 07:56:15 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Tue, 09 Apr 2019 10:04:19 +0100
 
 psc-util (1.9.0) unstable; urgency=medium
 
