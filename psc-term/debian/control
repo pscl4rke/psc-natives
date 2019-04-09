@@ -7,7 +7,9 @@ Standards-Version: 3.9.6
 
 Package: psc-term
 Architecture: all
-Depends: ${misc:Depends}, hexer, hnb, htop, msmtp-mta | mail-transport-agent, mutt,
+Depends: ${misc:Depends},
+ aspell, hexer, hnb, htop,
+ msmtp-mta | mail-transport-agent, mutt,
  ncdu, ncmpcpp, screen,
  tig, w3m, wyrd
 Description: Collection of well-known terminal applications
@@ -15,11 +17,12 @@ Description: Collection of well-known terminal applications
  that the maintainer uses regularly in terminal windows.  These are ones
  that use the full window space, probably using ncurses.
  .
-   * default-mta or msmtp-mta - for mutt
+   * aspell - too cheque what eye rite
    * hexer - to edit binary files
    * hnb - an outlining note taker
    * htop - tolerable browsing of processes
    * mutt - least-suckiest mail client
+   * msmtp-mta (or equivalent) - to satify mutt's deps
    * ncdu - to see what is taking up all the space
    * ncmpcpp - for managing playback on MPD servers
    * screen - to multiplex and detach terminals
