@@ -11,7 +11,7 @@ Depends: ${misc:Depends},
  aspell, hexer, hnb, htop,
  msmtp-mta | mail-transport-agent, mutt,
  ncdu, ncmpcpp, screen,
- tig, w3m, wyrd
+ tig, w3m, urlview, wyrd
 Description: Collection of well-known terminal applications
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly in terminal windows.  These are ones
@@ -28,6 +28,7 @@ Description: Collection of well-known terminal applications
    * screen - to multiplex and detach terminals
    * tig - to browse git history
    * w3m - HTML renderer and web client
+   * urlview - select web pages to launch
    * wyrd - frontend to remind calendars
  .
  Their documentation is also included.

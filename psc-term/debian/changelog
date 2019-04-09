@@ -1,6 +1,7 @@
 psc-term (1.4.0) UNRELEASED; urgency=medium
 
   * Add aspell as a dependency.
+  * Add urlview as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Tue, 09 Apr 2019 10:13:49 +0100
 
