@@ -1,3 +1,9 @@
+psc-util (1.10.0) UNRELEASED; urgency=medium
+
+  * Drop cfv as a dependency due to Python 2 and lack of sha256.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Tue, 09 Apr 2019 07:56:15 +0100
+
 psc-util (1.9.0) unstable; urgency=medium
 
   * Drop tidy-doc as a dependency as it is no longer being distributed.

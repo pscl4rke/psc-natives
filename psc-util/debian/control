@@ -10,7 +10,7 @@ Architecture: all
 Depends: ${misc:Depends},
  adb, ack-grep, acpi, antiword, apache2-utils, apcalc,
  bc, binutils, binutils-doc, bsdgames, bsdmainutils,
- catdoc, cfv, cloc, colordiff,
+ catdoc, cloc, colordiff,
  dc, docx2txt, dos2unix, dnsutils, ed, eyed3,
  fdupes, figlet, file, gpw, hledger, jq, laptop-detect,
  m4, m4-doc, make, make-doc, markdown, moreutils, mpc, msmtp,
@@ -37,7 +37,6 @@ Description: Collection of well-used command line utilities
    * bsdgames - for serious stuff, like rot13
    * bsdmainutils - esp. for `calendar` and `column`
    * catdoc - also includes `catppt` and `xls2csv`
-   * cfv - create and verify checksum hash files
    * cloc - count lines of code
    * colordiff - for more readable deltas
    * dc - for reverse polish calculations
