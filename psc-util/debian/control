@@ -14,7 +14,7 @@ Depends: ${misc:Depends},
  dc, docx2txt, dos2unix, dnsutils, ed, eyed3,
  fdupes, figlet, file, gettext-base, gpw,
  hashdeep, hledger, jq, laptop-detect,
- m4, m4-doc, mailtextbody, make, make-doc,
+ m4, m4-doc, maildir-utils, mailtextbody, make, make-doc,
  markdown, moreutils, mpc, msmtp,
  netcat-openbsd, oathtool, offlineimap, openssl,
  par, patch, pv, qprint, qprint-doc, quilt,
@@ -57,6 +57,7 @@ Description: Collection of well-used command line utilities
    * jq - for manipulating JSON
    * laptop-detect - guess type of computer
    * m4 - a text preprocessor
+   * maildir-utils - for the mu email indexer
    * mailtextbody - extract text/plain bodies from emails
    * make - to build all sorts of things
    * markdown - the text-to-html converter (pl version)

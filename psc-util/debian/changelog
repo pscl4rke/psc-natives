@@ -4,6 +4,7 @@ psc-util (1.10.0) UNRELEASED; urgency=medium
   * Add rhash and hashdeep as dependencies.
   * Add gettext-base as a dependency.
   * Add mailtextbody as a dependency.
+  * Add maildir-utils as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Tue, 09 Apr 2019 07:56:15 +0100
 
