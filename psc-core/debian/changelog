@@ -2,6 +2,7 @@ psc-core (1.5.0) UNRELEASED; urgency=medium
 
   * Remove apt-offline due to Python 2 and lack of use.
   * Remove gnupg-doc due to absence from some distros.
+  * Drop unused Makefile from inside project.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Mon, 08 Apr 2019 22:10:33 +0100
 
