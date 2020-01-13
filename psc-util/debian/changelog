@@ -1,3 +1,9 @@
+psc-util (1.11.0) unstable; urgency=medium
+
+  * Drop offlineimap due to Python 2 dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Mon, 13 Jan 2020 19:41:54 +0000
+
 psc-util (1.10.0) unstable; urgency=medium
 
   * Drop cfv as a dependency due to Python 2 and lack of sha256.

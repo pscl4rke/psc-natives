@@ -17,7 +17,7 @@ Depends: ${misc:Depends},
  hashdeep, hledger, jq, laptop-detect,
  m4, m4-doc, maildir-utils, mailtextbody, make, make-doc,
  markdown, moreutils, mpc, msmtp,
- netcat-openbsd, oathtool, offlineimap, openssl,
+ netcat-openbsd, oathtool, openssl,
  par, patch, pv, qprint, qprint-doc, quilt,
  remind, rhash, rlwrap,
  sharutils, sharutils-doc, sitecopy, sqlite3, sqlite3-doc,
@@ -68,7 +68,6 @@ Description: Collection of well-used command line utilities
    * msmtp - to send emails
    * netcat-openbsd - the version with `nc -U`
    * oathtool - TOTP two-factor authentication
-   * offlineimap - synchronise with mail servers
    * openssl - manage encryption and certificates
    * par - reformats paragraphs
    * patch - to apply diffs
