@@ -1,4 +1,6 @@
 
+SHELL := /bin/bash
+
 # For the benefit of dh_make...
 export DEBFULLNAME = P. S. Clarke
 export DEBEMAIL = debs@pscl4rke.net
