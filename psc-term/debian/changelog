@@ -1,3 +1,9 @@
+psc-term (1.5.0) unstable; urgency=medium
+
+  * Add pick as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Wed, 25 Mar 2020 22:01:27 +0000
+
 psc-term (1.4.0) unstable; urgency=medium
 
   * Add aspell as a dependency.

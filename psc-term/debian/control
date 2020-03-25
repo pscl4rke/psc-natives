@@ -10,7 +10,7 @@ Architecture: all
 Depends: ${misc:Depends},
  abook, aspell, hexer, hnb, htop,
  msmtp-mta | mail-transport-agent, mutt,
- ncdu, ncmpcpp, screen,
+ ncdu, ncmpcpp, pick, screen,
  tig, w3m, urlview, wyrd
 Description: Collection of well-known terminal applications
  This metapackage provides nothing itself, but depends on lots of packages
@@ -26,6 +26,7 @@ Description: Collection of well-known terminal applications
    * msmtp-mta (or equivalent) - to satify mutt's deps
    * ncdu - to see what is taking up all the space
    * ncmpcpp - for managing playback on MPD servers
+   * pick - select options from a list
    * screen - to multiplex and detach terminals
    * tig - to browse git history
    * w3m - HTML renderer and web client
