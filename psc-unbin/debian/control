@@ -11,8 +11,9 @@ Standards-Version: 3.9.6
 Package: psc-unbin
 Architecture: all
 Depends: ${misc:Depends},
- antiword, binutils, binutils-doc, catdoc, docx2txt, dos2unix,
- file, sqlite3, sqlite3-doc, tofrodos, xlsx2csv,
+ antiword, binutils, binutils-doc, bomstrip, catdoc, docx2txt, dos2unix,
+ file, html2text, poppler-utils, sqlite3, sqlite3-doc, tofrodos,
+ unrtf, xlsx2csv,
 Description: Collection of binary-to-text converters
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses to convert binary (often proprietary) file formats
@@ -21,13 +22,17 @@ Description: Collection of binary-to-text converters
  .
    * antiword - read MS .doc files
    * binutils - only for `strings` really
+   * bomstrip - get rid of byte-order markers
    * catdoc - also includes `catppt` and `xls2csv`
    * docx2txt - read MS .docx files
         [perl-based, but dependency not declared!]
    * dos2unix - the original crlf <-> lf converter
    * file - tell file types with magic numbers
+   * html2text - renders web pages plainly
+   * poppler-utils - for pdftotext and co
    * sqlite3 - a shell for databases
    * tofrodos - another crlf <-> lf converter
+   * unrtf - read Rich Text Format
    * xlsx2csv - extract data from spreadsheets
         [python-based]
  .
