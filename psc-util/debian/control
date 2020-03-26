@@ -8,11 +8,10 @@ Standards-Version: 3.9.6
 Package: psc-util
 Architecture: all
 Depends: ${misc:Depends},
- adb, ack-grep, acpi, antiword, apache2-utils, apcalc,
- bc, binutils, binutils-doc,
- bsdgames, bsdutils (>= 0), bsdmainutils,
- catdoc, cloc, colordiff,
- dc, docx2txt, dos2unix, dnsutils, ed, eyed3,
+ adb, ack-grep, acpi, apache2-utils, apcalc,
+ bc, bsdgames, bsdutils (>= 0), bsdmainutils,
+ cloc, colordiff,
+ dc, dos2unix, dnsutils, ed, eyed3,
  fdupes, figlet, file, gettext-base, gpw,
  hashdeep, hledger, jq, laptop-detect,
  m4, m4-doc, maildir-utils, mailtextbody, make, make-doc,
@@ -24,7 +23,7 @@ Depends: ${misc:Depends},
  sshuttle, strace, sysvbanner,
  task-spooler, telnet, tidy, tnef,
  tofrodos, toilet, tree, trim-c, units, uudeview, uuid,
- wdiff, wdiff-doc, whois, xlsx2csv,
+ wdiff, wdiff-doc, whois,
 Description: Collection of well-used command line utilities
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
@@ -32,19 +31,15 @@ Description: Collection of well-used command line utilities
    * adb - manage Android phones
    * ack-grep - ack is better than grep
    * acpi - monitor batteries and temperatures
-   * antiword - read MS .doc files
    * apache2-utils - for htpasswd manager
    * apcalc - for the `calc` calculator
    * bc - for another calculator
-   * binutils - only for `strings` really
    * bsdgames - for serious stuff, like rot13
    * bsdutils - for things like `logger`
    * bsdmainutils - esp. for `calendar` and `column`
-   * catdoc - also includes `catppt` and `xls2csv`
    * cloc - count lines of code
    * colordiff - for more readable deltas
    * dc - for reverse polish calculations
-   * docx2txt - read MS .docx files
    * dos2unix - the original crlf <-> lf converter
    * dnsutils - for `dig` and `nslookup`
    * ed - the editor you only use when desperate
@@ -96,6 +91,5 @@ Description: Collection of well-used command line utilities
    * uuid - for random identifiers
    * wdiff - to compare files within lines
    * whois - for `whois` and `mkpasswd`
-   * xlsx2csv - extract data from spreadsheets
  .
  Their documentation is also included.

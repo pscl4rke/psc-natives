@@ -1,0 +1,34 @@
+Source: psc-unbin
+Section: misc
+Priority: optional
+Maintainer: P. S. Clarke <debs@pscl4rke.net>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/psc-unbin.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/psc-unbin.git
+
+Package: psc-unbin
+Architecture: all
+Depends: ${misc:Depends},
+ antiword, binutils, binutils-doc, catdoc, docx2txt, dos2unix,
+ file, sqlite3, sqlite3-doc, tofrodos, xlsx2csv,
+Description: Collection of binary-to-text converters
+ This metapackage provides nothing itself, but depends on lots of packages
+ that the maintainer uses to convert binary (often proprietary) file formats
+ into plain text.  Useful for indexing tools, and for managing filesystems
+ remotely over SSH.
+ .
+   * antiword - read MS .doc files
+   * binutils - only for `strings` really
+   * catdoc - also includes `catppt` and `xls2csv`
+   * docx2txt - read MS .docx files
+        [perl-based, but dependency not declared!]
+   * dos2unix - the original crlf <-> lf converter
+   * file - tell file types with magic numbers
+   * sqlite3 - a shell for databases
+   * tofrodos - another crlf <-> lf converter
+   * xlsx2csv - extract data from spreadsheets
+        [python-based]
+ .
+ Their documentation is also included.

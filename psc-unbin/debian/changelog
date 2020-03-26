@@ -1,0 +1,7 @@
+psc-unbin (1.0.0) UNRELEASED; urgency=medium
+
+  * Initial Release.
+  * Copy dependencies from psc-util: antiword, binutils, catdoc, docx2txt,
+    dos2unix, file, sqlite3, tofrodos and xlsx2csv.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Thu, 26 Mar 2020 08:49:28 +0000

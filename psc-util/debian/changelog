@@ -1,3 +1,10 @@
+psc-util (2.0.0) UNRELEASED; urgency=medium
+
+  * Drop packages that are moved to the new psc-unbin: antiword, binutils,
+    catdoc, docx2txt and xlsx2csv.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Thu, 26 Mar 2020 09:47:48 +0000
+
 psc-util (1.11.0) unstable; urgency=medium
 
   * Drop offlineimap due to Python 2 dependency.
