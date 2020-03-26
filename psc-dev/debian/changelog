@@ -1,0 +1,7 @@
+psc-dev (1.0.0) UNRELEASED; urgency=medium
+
+  * Initial Release.
+  * Duplicate dependencies from other packages on: git, make, sqlite3,
+    tig and vim.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Thu, 26 Mar 2020 18:56:09 +0000

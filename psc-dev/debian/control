@@ -1,0 +1,26 @@
+Source: psc-dev
+Section: misc
+Priority: optional
+Maintainer: P. S. Clarke <debs@pscl4rke.net>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/psc-dev.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/psc-dev.git
+
+Package: psc-dev
+Architecture: all
+Depends: ${misc:Depends},
+ git, git-doc, git-man, make, make-doc,
+ sqlite3, sqlite3-doc, tig, vim, vim-doc,
+Description: Collection of tools for general software development
+ This metapackage provides nothing itself, but depends on lots of packages
+ that the maintainer uses for development.  They are:
+ .
+   * git - the version control system
+   * make - the most common build tool
+   * sqlite3 - a shell for databases
+   * tig - to browse git history
+   * vim - for editing files properly
+ .
+ Their documentation is also included.

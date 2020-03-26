@@ -33,3 +33,4 @@ psc-scan/debian/psc-scan/
 psc-bind/debian/psc-bind/
 psc-py3dev/debian/psc-py3dev/
 psc-unbin/debian/psc-unbin/
+psc-dev/debian/psc-dev/
