@@ -4,6 +4,7 @@ SHELL := /bin/bash
 # For the benefit of dh_make...
 export DEBFULLNAME = P. S. Clarke
 export DEBEMAIL = debs@pscl4rke.net
+year = $(shell date "+%Y")
 
 dummy:
 	@echo "Usage:"
@@ -29,10 +30,10 @@ new:
 	sed -i 's/unknown/misc/' $(name)/debian/control
 	sed -i 's/^Homep/#Homep/' $(name)/debian/control
 	sed -i 's|<url://example.com>|(none)|g' $(name)/debian/copyright
+	sed -i 's/: <years.*$$/: $(year) $(DEBFULLNAME) <$(DEBEMAIL)>/' $(name)/debian/copyright
+	sed -i '/<years>/ d' $(name)/debian/copyright
 	sed -i '/for another author/ d' $(name)/debian/copyright
 	sed -i '/^# / d' $(name)/debian/copyright
 	echo "$(name)/debian/$(name)/" >> .gitignore
 	@echo
-	@echo Still need to fix a few things in the control and
-	@echo copyright files
-
+	@echo You still need to fix a few things in the control file...
