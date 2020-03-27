@@ -11,14 +11,17 @@ Standards-Version: 3.9.6
 Package: psc-dev
 Architecture: all
 Depends: ${misc:Depends},
- git, git-doc, git-man, make, make-doc,
- sqlite3, sqlite3-doc, tig, vim, vim-doc,
+ cloc, git, git-doc, git-man, make, make-doc,
+ patch, quilt, sqlite3, sqlite3-doc, tig, vim, vim-doc,
 Description: Collection of tools for general software development
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses for development.  They are:
  .
+   * cloc - count lines of code
    * git - the version control system
    * make - the most common build tool
+   * patch - to apply diffs
+   * quilt - manage sets of patches to apply
    * sqlite3 - a shell for databases
    * tig - to browse git history
    * vim - for editing files properly

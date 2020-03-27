@@ -10,14 +10,13 @@ Architecture: all
 Depends: ${misc:Depends},
  adb, ack-grep, acpi, apache2-utils, apcalc,
  bc, bsdgames, bsdutils (>= 0), bsdmainutils,
- cloc, colordiff,
- dc, dos2unix, dnsutils, ed, eyed3,
+ colordiff, dc, dos2unix, dnsutils, ed, eyed3,
  fdupes, figlet, file, gettext-base, gpw,
  hashdeep, hledger, jq, laptop-detect,
  m4, m4-doc, maildir-utils, mailtextbody, make, make-doc,
  markdown, moreutils, mpc, msmtp,
  netcat-openbsd, oathtool, openssl,
- par, patch, pv, qprint, qprint-doc, quilt,
+ par, pv, qprint, qprint-doc,
  remind, rhash, rlwrap,
  sharutils, sharutils-doc, sitecopy, sqlite3, sqlite3-doc,
  sshuttle, strace, sysvbanner,
@@ -37,7 +36,6 @@ Description: Collection of well-used command line utilities
    * bsdgames - for serious stuff, like rot13
    * bsdutils - for things like `logger`
    * bsdmainutils - esp. for `calendar` and `column`
-   * cloc - count lines of code
    * colordiff - for more readable deltas
    * dc - for reverse polish calculations
    * dos2unix - the original crlf <-> lf converter
@@ -65,10 +63,8 @@ Description: Collection of well-used command line utilities
    * oathtool - TOTP two-factor authentication
    * openssl - manage encryption and certificates
    * par - reformats paragraphs
-   * patch - to apply diffs
    * pv - pipe viewer - cat with a progress bar
    * qprint - encode/decode quoted-printable text
-   * quilt - manage sets of patches to apply
    * remind - calendar of recurring events
    * rhash - many different checksums
    * rlwrap - add readline to a program shells
