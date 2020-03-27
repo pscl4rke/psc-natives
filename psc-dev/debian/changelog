@@ -1,4 +1,4 @@
-psc-dev (1.0.0) UNRELEASED; urgency=medium
+psc-dev (1.0.0) unstable; urgency=medium
 
   * Initial Release.
   * Duplicate dependencies from other packages on: git, make, sqlite3,
@@ -6,4 +6,4 @@ psc-dev (1.0.0) UNRELEASED; urgency=medium
   * Move dependencies from psc-util: cloc, patch and quilt.
   * Add shellcheck as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Thu, 26 Mar 2020 18:56:09 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Fri, 27 Mar 2020 08:24:02 +0000
