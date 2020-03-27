@@ -2,6 +2,7 @@ psc-util (2.0.0) UNRELEASED; urgency=medium
 
   * Drop packages that are moved to the new psc-unbin: antiword, binutils,
     catdoc, docx2txt and xlsx2csv.
+  * Drop packages that are moved to the new psc-dev: cloc, patch and quilt.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Thu, 26 Mar 2020 09:47:48 +0000
 
