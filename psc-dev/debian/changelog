@@ -4,5 +4,6 @@ psc-dev (1.0.0) UNRELEASED; urgency=medium
   * Duplicate dependencies from other packages on: git, make, sqlite3,
     tig and vim.
   * Move dependencies from psc-util: cloc, patch and quilt.
+  * Add shellcheck as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Thu, 26 Mar 2020 18:56:09 +0000
