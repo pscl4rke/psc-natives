@@ -1,0 +1,29 @@
+Source: psc-email
+Section: misc
+Priority: optional
+Maintainer: P. S. Clarke <debs@pscl4rke.net>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/psc-email.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/psc-email.git
+
+Package: psc-email
+Architecture: all
+Depends: ${misc:Depends},
+ aspell,
+ msmtp-mta | mail-transport-agent, mp, mutt,
+ w3m, urlview, vim, vim-doc,
+Description: Collection of software for email activities
+ This metapackage provides nothing itself, but depends on lots of packages
+ that the maintainer uses for handling email:
+ .
+   * aspell - too cheque what eye rite
+   * mutt - least-suckiest mail client
+   * mp - convert emails to postscript
+   * msmtp-mta (or equivalent) - to satify mutt's deps
+   * w3m - HTML renderer and web client
+   * urlview - select web pages to launch
+   * vim - for editing files properly
+ .
+ Their documentation is also included.

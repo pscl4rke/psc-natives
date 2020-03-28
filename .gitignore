@@ -34,3 +34,4 @@ psc-bind/debian/psc-bind/
 psc-py3dev/debian/psc-py3dev/
 psc-unbin/debian/psc-unbin/
 psc-dev/debian/psc-dev/
+psc-email/debian/psc-email/

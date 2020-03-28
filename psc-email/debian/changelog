@@ -1,0 +1,7 @@
+psc-email (1.0.0) UNRELEASED; urgency=medium
+
+  * Initial Release.
+  * Copy in dependencies from other packages: aspell, msmtp-mta, mp,
+    mutt, w3m, urlview and vim.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 28 Mar 2020 08:23:57 +0000
