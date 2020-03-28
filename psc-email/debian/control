@@ -14,7 +14,8 @@ Depends: ${misc:Depends},
  aspell, ghostscript, ghostscript-doc,
  maildir-utils, mailtextbody,
  msmtp, msmtp-mta | mail-transport-agent, mp, mutt,
- oathtool, qprint, qprint-doc, tnef, w3m, urlview, vim, vim-doc,
+ oathtool, python3, qprint, qprint-doc, tnef, w3m,
+ urlview, vim, vim-doc,
 Description: Collection of software for email activities
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses for handling email:
@@ -28,6 +29,7 @@ Description: Collection of software for email activities
    * msmtp - to send emails
    * msmtp-mta (or equivalent) - to satify mutt's deps
    * oathtool - TOTP two-factor authentication
+   * python3 - for almost all my scripts
    * qprint - encode/decode quoted-printable text
    * tnef - unpack winmail.dat attachments
    * w3m - HTML renderer and web client

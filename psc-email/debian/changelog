@@ -5,5 +5,6 @@ psc-email (1.0.0) UNRELEASED; urgency=medium
     msmtp-mta, mp, mutt, oathtool, qprint, w3m, urlview and vim.
   * Move dependencies from psc-util: maildir-utils, mailtextbody,
     msmtp and tnef.
+  * Add python3 as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 28 Mar 2020 08:23:57 +0000
