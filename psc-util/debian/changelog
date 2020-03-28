@@ -1,4 +1,4 @@
-psc-util (2.0.0) UNRELEASED; urgency=medium
+psc-util (2.0.0) unstable; urgency=medium
 
   * Drop packages that are moved to the new psc-unbin: antiword, binutils,
     catdoc, docx2txt and xlsx2csv.
@@ -8,7 +8,7 @@ psc-util (2.0.0) UNRELEASED; urgency=medium
   * Drop m4 due to total lack of use.
   * Drop sitecopy because it's only used in specific circumstances.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Thu, 26 Mar 2020 09:47:48 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 28 Mar 2020 11:14:20 +0000
 
 psc-util (1.11.0) unstable; urgency=medium
 
