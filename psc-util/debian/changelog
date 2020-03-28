@@ -5,6 +5,8 @@ psc-util (2.0.0) UNRELEASED; urgency=medium
   * Drop packages that are moved to the new psc-dev: cloc, patch and quilt.
   * Drop packages that are moved to the new psc-email: maildir-utils,
     mailtextbody, msmtp and tnef.
+  * Drop m4 due to total lack of use.
+  * Drop sitecopy because it's only used in specific circumstances.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Thu, 26 Mar 2020 09:47:48 +0000
 
