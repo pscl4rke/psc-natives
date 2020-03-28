@@ -13,14 +13,13 @@ Depends: ${misc:Depends},
  colordiff, dc, dos2unix, dnsutils, ed, eyed3,
  fdupes, figlet, file, gettext-base, gpw,
  hashdeep, hledger, jq, laptop-detect,
- m4, m4-doc, maildir-utils, mailtextbody, make, make-doc,
- markdown, moreutils, mpc, msmtp,
+ m4, m4-doc, make, make-doc, markdown, moreutils, mpc,
  netcat-openbsd, oathtool, openssl,
  par, pv, qprint, qprint-doc,
  remind, rhash, rlwrap,
  sharutils, sharutils-doc, sitecopy, sqlite3, sqlite3-doc,
  sshuttle, strace, sysvbanner,
- task-spooler, telnet, tidy, tnef,
+ task-spooler, telnet, tidy,
  tofrodos, toilet, tree, trim-c, units, uudeview, uuid,
  wdiff, wdiff-doc, whois,
 Description: Collection of well-used command line utilities
@@ -52,13 +51,10 @@ Description: Collection of well-used command line utilities
    * jq - for manipulating JSON
    * laptop-detect - guess type of computer
    * m4 - a text preprocessor
-   * maildir-utils - for the mu email indexer
-   * mailtextbody - extract text/plain bodies from emails
    * make - to build all sorts of things
    * markdown - the text-to-html converter (pl version)
    * moreutils - assorted stuff not in coreutils
    * mpc - connect to MPD servers
-   * msmtp - to send emails
    * netcat-openbsd - the version with `nc -U`
    * oathtool - TOTP two-factor authentication
    * openssl - manage encryption and certificates
@@ -77,7 +73,6 @@ Description: Collection of well-used command line utilities
    * task-spooler - a job queue
    * telnet - for crude networking
    * tidy - to clean up HTML and XML files
-   * tnef - unpack winmail.dat attachments
    * tofrodos - another crlf <-> lf converter
    * toilet - create even more big banners o text
    * tree - to visualise a filesystem

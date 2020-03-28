@@ -11,17 +11,25 @@ Standards-Version: 3.9.6
 Package: psc-email
 Architecture: all
 Depends: ${misc:Depends},
- aspell,
- msmtp-mta | mail-transport-agent, mp, mutt,
- w3m, urlview, vim, vim-doc,
+ aspell, ghostscript, ghostscript-doc,
+ maildir-utils, mailtextbody,
+ msmtp, msmtp-mta | mail-transport-agent, mp, mutt,
+ oathtool, qprint, qprint-doc, tnef, w3m, urlview, vim, vim-doc,
 Description: Collection of software for email activities
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses for handling email:
  .
    * aspell - too cheque what eye rite
+   * ghostscript - print messages with `ps2pdf`
+   * maildir-utils - for the mu email indexer
+   * mailtextbody - extract text/plain bodies from emails
    * mutt - least-suckiest mail client
    * mp - convert emails to postscript
+   * msmtp - to send emails
    * msmtp-mta (or equivalent) - to satify mutt's deps
+   * oathtool - TOTP two-factor authentication
+   * qprint - encode/decode quoted-printable text
+   * tnef - unpack winmail.dat attachments
    * w3m - HTML renderer and web client
    * urlview - select web pages to launch
    * vim - for editing files properly
