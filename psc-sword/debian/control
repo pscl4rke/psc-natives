@@ -7,7 +7,8 @@ Standards-Version: 3.9.6
 
 Package: psc-sword
 Architecture: all
-Depends: ${misc:Depends}, diatheke, libsword-dev, libsword-utils, xiphos
+Depends: ${misc:Depends}, diatheke, libsword-dev, libsword-utils,
+  xiphos | bibletime
 Description: Collection of tools for using Sword Bible data
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses for working with Sword data from CrossWire's
@@ -17,6 +18,10 @@ Description: Collection of tools for using Sword Bible data
    * diatheke - Command-line tool for reading files
    * libsword-dev - Compilation headers to build my own software
    * libsword-utils - Assorted tools for working with the data
+ .
+ And then (depending on availability) one of either:
+ .
    * xiphos - Gtk application for reading files
+   * bibletime - Qt application for reading files
  .
  Their documentation is also included.

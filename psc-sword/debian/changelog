@@ -1,3 +1,10 @@
+psc-sword (1.1.0) unstable; urgency=medium
+
+  * Xiphos is not available in Ubuntu 20.04, so add BibleTime
+    as an alternative.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sun, 10 May 2020 09:35:52 +0100
+
 psc-sword (1.0.0) unstable; urgency=low
 
   * Initial Release.
