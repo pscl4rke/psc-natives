@@ -10,7 +10,7 @@ Architecture: all
 Depends: ${misc:Depends}, arandr, dillo, openbox,
  libnotify-bin, libnotify-doc,
  redshift, rxvt-unicode, scrot, simpleswitcher, suckless-tools, sxiv,
- vim-gtk, wmctrl,
+ tilda, vim-gtk, wmctrl,
  x11-utils, x11-xserver-utils, xbacklight, xclip, xdotool, xmacro, xteddy,
  zenity,
 Description: Collection of toolkit-independent GUI tools
@@ -30,6 +30,7 @@ Description: Collection of toolkit-independent GUI tools
    * simpleswitcher - interactive window finder
    * suckless-tools - for the excellent dmenu
    * sxiv - minimalistic image viewer
+   * tilda - dropdown terminal
    * vim-gtk - to edit odd things
    * wmctrl - for finding windows
    * x11-utils - little utilities

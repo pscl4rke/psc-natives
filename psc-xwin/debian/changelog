@@ -3,6 +3,7 @@ psc-xwin (1.5.0) UNRELEASED; urgency=medium
   * Clean up for latest lintian.
   * Add redshift as a dependency.
   * Add x11-xserver-utils as a dependency.
+  * Add tilda as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Mon, 05 Apr 2021 15:42:37 +0100
 
