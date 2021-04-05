@@ -2,8 +2,8 @@ Source: psc-bind
 Section: misc
 Priority: optional
 Maintainer: P. S. Clarke <debs@pscl4rke.net>
-Build-Depends: debhelper (>=9)
-Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 12)
+Standards-Version: 4.5.0
 
 Package: psc-bind
 Architecture: all
