@@ -9,7 +9,7 @@ Package: psc-xwin
 Architecture: all
 Depends: ${misc:Depends}, arandr, dillo, openbox,
  libnotify-bin, libnotify-doc,
- rxvt-unicode, scrot, simpleswitcher, suckless-tools, sxiv,
+ redshift, rxvt-unicode, scrot, simpleswitcher, suckless-tools, sxiv,
  vim-gtk, wmctrl,
  x11-utils, xbacklight, xclip, xdotool, xmacro, xteddy, zenity,
 Description: Collection of toolkit-independent GUI tools
@@ -23,6 +23,7 @@ Description: Collection of toolkit-independent GUI tools
    * dillo - ugly but lightweight html browser
    * openbox - an excellent window manager
    * libnotify-bin - to send messages to the screen
+   * redshift - comfortable colours and brightness
    * rxvt-unicode - the urxvt terminal
    * scrot - for screenshots
    * simpleswitcher - interactive window finder
