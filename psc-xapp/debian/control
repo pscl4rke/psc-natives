@@ -8,16 +8,18 @@ Standards-Version: 4.4.1
 Package: psc-xapp
 Architecture: all
 Depends: ${misc:Depends},
- dillo, feh, rxvt-unicode, sxiv, vim-gtk, xteddy,
+ dillo, feh, mpv, rxvt-unicode, sxiv, vim-gtk, xteddy,
  zathura, zathura-pdf-poppler, zathura-ps, zathura-djvu,
+Conflicts: youtube-dl (<< 9000)
 Description: Collection of lightweight X11 applications
  This metapackage provides nothing itself, but depends upon packages
  that the maintainer considers important for working in X windows
- environment.  They are applications that are useful for bare-minimum
- activities.
+ environment.  They are applications that have bare-minimum user
+ interfaces.
  .
    * dillo - ugly but lightweight html browser
    * feh - configurable image viewer
+   * mpv - swiss-army media player
    * rxvt-unicode - the urxvt terminal
    * sxiv - minimalistic image viewer
    * vim-gtk - to edit odd things

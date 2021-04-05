@@ -2,6 +2,7 @@ psc-xapp (1.1.0) UNRELEASED; urgency=medium
 
   * Add feh as a dependency.
   * Add zathura and plugins as dependencies.
+  * Add mpv as a dependency.  And many subdependencies.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Mon, 05 Apr 2021 20:03:04 +0100
 
