@@ -10,7 +10,7 @@ Architecture: all
 Depends: ${misc:Depends},
  default-libmysqlclient-dev,
  libffi-dev,
- libpq-dev, libssl-dev, libssl-doc
+ libpq-dev, libreadline-dev, libsqlite3-dev, libssl-dev, libssl-doc
 Description: Collection of header files for language bindings
  This metapackage provides nothing itself, but depends on lots of
  development packages for frequently-used libraries.  This is partly
@@ -22,6 +22,8 @@ Description: Collection of header files for language bindings
    * default-libmysqlclient-dev - connect to MySQL or MariaDB
    * libffi-dev - foreign function interface
    * libpq-dev - connect to PostgreSQL
+   * libreadine-dev - edit user prompts
+   * libsqlite3-dev - "connect" to file databases
    * libssl-dev - the infamous OpenSSL
  .
  Their documentation is also included.
