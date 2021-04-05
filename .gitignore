@@ -2,11 +2,13 @@
 # And these don't seem valuable:
 */debian/files
 */debian/debhelper-build-stamp
+*.debhelper
 *.debhelper.log
 *.substvars
 
 # Package building creates all these in the root directory:
 /*.build
+/*.buildinfo
 /*.changes
 /*.deb
 /*.dsc
