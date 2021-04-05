@@ -7,7 +7,9 @@ Standards-Version: 4.5.0
 
 Package: psc-bind
 Architecture: all
-Depends: ${misc:Depends}, libffi-dev, libmysqlclient-dev,
+Depends: ${misc:Depends},
+ default-libmysqlclient-dev,
+ libffi-dev,
  libpq-dev, libssl-dev, libssl-doc
 Description: Collection of header files for language bindings
  This metapackage provides nothing itself, but depends on lots of
@@ -17,8 +19,8 @@ Description: Collection of header files for language bindings
  distribute modules that bind to a C implementation.  For example,
  using pip to install MySQLdb in Python.
  .
+   * default-libmysqlclient-dev - connect to MySQL or MariaDB
    * libffi-dev - foreign function interface
-   * libmysqlclient-dev - connect to MySQL
    * libpq-dev - connect to PostgreSQL
    * libssl-dev - the infamous OpenSSL
  .

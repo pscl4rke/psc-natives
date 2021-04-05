@@ -1,6 +1,7 @@
 psc-bind (1.1.0) UNRELEASED; urgency=medium
 
   * Clean up for latest lintian.
+  * Improve flexibility of libmysqlclient-dev.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Mon, 05 Apr 2021 17:51:14 +0100
 
