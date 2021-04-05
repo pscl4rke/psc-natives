@@ -9,7 +9,7 @@ Package: psc-bind
 Architecture: all
 Depends: ${misc:Depends},
  default-libmysqlclient-dev,
- libffi-dev,
+ libffi-dev, libncurses-dev,
  libpq-dev, libreadline-dev, libsqlite3-dev, libssl-dev, libssl-doc
 Description: Collection of header files for language bindings
  This metapackage provides nothing itself, but depends on lots of
@@ -21,6 +21,7 @@ Description: Collection of header files for language bindings
  .
    * default-libmysqlclient-dev - connect to MySQL or MariaDB
    * libffi-dev - foreign function interface
+   * libncurses-dev - console applications
    * libpq-dev - connect to PostgreSQL
    * libreadine-dev - edit user prompts
    * libsqlite3-dev - "connect" to file databases
