@@ -8,7 +8,7 @@ Standards-Version: 4.4.1
 Package: psc-xapp
 Architecture: all
 Depends: ${misc:Depends},
- dillo, rxvt-unicode, sxiv, vim-gtk, xteddy,
+ dillo, feh, rxvt-unicode, sxiv, vim-gtk, xteddy,
 Description: Collection of lightweight X11 applications
  This metapackage provides nothing itself, but depends upon packages
  that the maintainer considers important for working in X windows
@@ -16,6 +16,7 @@ Description: Collection of lightweight X11 applications
  activities.
  .
    * dillo - ugly but lightweight html browser
+   * feh - configurable image viewer
    * rxvt-unicode - the urxvt terminal
    * sxiv - minimalistic image viewer
    * vim-gtk - to edit odd things

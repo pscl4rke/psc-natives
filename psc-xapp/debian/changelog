@@ -1,3 +1,9 @@
+psc-xapp (1.1.0) UNRELEASED; urgency=medium
+
+  * Add feh as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Mon, 05 Apr 2021 20:03:04 +0100
+
 psc-xapp (1.0.0) unstable; urgency=medium
 
   * Initial Release.
