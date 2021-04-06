@@ -7,7 +7,8 @@ Standards-Version: 4.5.0
 
 Package: psc-graph
 Architecture: all
-Depends: ${misc:Depends}, ghostscript, ghostscript-doc, groff,
+Depends: ${misc:Depends},
+ findimagedupes, ghostscript, ghostscript-doc, groff,
  html2ps, imagemagick, imagemagick-doc,
  libjpeg-progs, mp, mupdf, mupdf-tools, netpbm,
  psutils,
@@ -16,6 +17,7 @@ Description: Collection of packages for images and typesetting
  that the maintainer finds valuable for handling images and doing page
  layout.  They are:
  .
+   * findimagedupes - does what it says on the tin
    * ghostscript - kitchen sink for postscript
    * groff - a typesetter (more than just groff-base)
    * html2ps - render documents on a page
