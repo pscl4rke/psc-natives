@@ -10,7 +10,8 @@ Architecture: all
 Depends: ${misc:Depends},
  findimagedupes, ghostscript, ghostscript-doc, groff,
  html2ps, imagemagick, imagemagick-doc,
- libjpeg-progs, mp, mupdf, mupdf-tools, netpbm,
+ libheif-examples, libjpeg-progs,
+ mp, mupdf, mupdf-tools, netpbm,
  psutils,
 Description: Collection of packages for images and typesetting
  This metapackage provides nothing itself, but depends on lots of packages
@@ -22,6 +23,7 @@ Description: Collection of packages for images and typesetting
    * groff - a typesetter (more than just groff-base)
    * html2ps - render documents on a page
    * imagemagick - convert image formats
+   * libheif-examples - convert heif/heic images
    * libjpeg-progs - rotate photographs
    * mp - convert emails to postscript
    * mupdf - to view PDF and XPS files
