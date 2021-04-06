@@ -8,14 +8,16 @@ Standards-Version: 4.4.1
 Package: psc-debdev
 Architecture: all
 Depends: ${misc:Depends},
- debhelper, dh-make, equivs,
+ debhelper, devscripts, dh-make, equivs, lintian,
 Description: Collection of packages for Deb packaging
  This metapackage provides nothing itself, but depends on lots of
  packages that the maintainer uses when producing metapackages like
  this.
  .
-   * debhelper - for the rules files to work
+   * debhelper - so `dh` in the rules file works
+   * devscripts - for the `debuild` command
    * dh-make - to create new packages
    * equivs - quickly create fake packages
+   * lintian - quality assurance
  .
  Their documentation is also included.

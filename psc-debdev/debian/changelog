@@ -2,5 +2,6 @@ psc-debdev (1.0.1) UNRELEASED; urgency=medium
 
   * Initial Release.
   * Add debhelper, dh-make and equivs as dependencies.
+  * Add lintian and devscripts as dependencies.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Tue, 06 Apr 2021 13:45:24 +0100
