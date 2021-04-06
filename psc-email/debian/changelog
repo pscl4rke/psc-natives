@@ -1,3 +1,9 @@
+psc-email (1.1.0) UNRELEASED; urgency=medium
+
+  * Clean up for latest lintian
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Tue, 06 Apr 2021 14:32:52 +0100
+
 psc-email (1.0.0) unstable; urgency=medium
 
   * Initial Release.
