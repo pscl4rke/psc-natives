@@ -12,7 +12,7 @@ Depends: ${misc:Depends},
  html2ps, imagemagick, imagemagick-doc,
  libheif-examples, libjpeg-progs,
  mp, mupdf, mupdf-tools, netpbm,
- psutils, webp,
+ psutils, qpdf, webp,
 Description: Collection of packages for images and typesetting
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer finds valuable for handling images and doing page
@@ -30,6 +30,7 @@ Description: Collection of packages for images and typesetting
    * mupdf-tools - command line converters
    * netpbm - more image conversion
    * psutils - rearrange postscript pages
+   * qpdf - strip off pdf passwords
    * webp - convert webp images
  .
  Their documentation is also included.
