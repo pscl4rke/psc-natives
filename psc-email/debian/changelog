@@ -1,9 +1,9 @@
-psc-email (1.1.0) UNRELEASED; urgency=medium
+psc-email (1.1.0) unstable; urgency=medium
 
   * Clean up for latest lintian.
   * Add urlview-patched in preference over urlview.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Tue, 06 Apr 2021 14:32:52 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Tue, 06 Apr 2021 14:53:20 +0100
 
 psc-email (1.0.0) unstable; urgency=medium
 
