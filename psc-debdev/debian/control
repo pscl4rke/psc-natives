@@ -1,0 +1,18 @@
+Source: psc-debdev
+Section: misc
+Priority: optional
+Maintainer: P. S. Clarke <debs@pscl4rke.net>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+
+Package: psc-debdev
+Architecture: all
+Depends: ${misc:Depends},
+Description: Collection of packages for Deb packaging
+ This metapackage provides nothing itself, but depends on lots of
+ packages that the maintainer uses when producing metapackages like
+ this.
+ .
+   * foo - bar baz
+ .
+ Their documentation is also included.
