@@ -38,3 +38,4 @@ psc-unbin/debian/psc-unbin/
 psc-dev/debian/psc-dev/
 psc-email/debian/psc-email/
 psc-xapp/debian/psc-xapp/
+psc-binlib/debian/psc-binlib/

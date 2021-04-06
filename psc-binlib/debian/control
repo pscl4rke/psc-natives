@@ -1,0 +1,20 @@
+Source: psc-binlib
+Section: misc
+Priority: optional
+Maintainer: P. S. Clarke <debs@pscl4rke.net>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+
+Package: psc-binlib
+Architecture: all
+Depends: ${misc:Depends},
+Description: Collection of libraries used by scripts
+ This metapackage provides nothing itself, but depends on lots of
+ packages for frequently-used libraries.  This is to enable scripts
+ in places like ~/bin to just "import" a third-party library and
+ work without additional installations.  Primarily Python libraries,
+ but they don't have to be.
+ .
+   * foo - bar baz
+ .
+ Their documentation is also included.
