@@ -1,4 +1,4 @@
-psc-debdev (1.0.0) UNRELEASED; urgency=medium
+psc-debdev (1.0.0) unstable; urgency=medium
 
   * Initial Release.
   * Add debhelper, dh-make and equivs as dependencies.
@@ -6,4 +6,4 @@ psc-debdev (1.0.0) UNRELEASED; urgency=medium
   * Add quilt as a dependency.
   * Add gnupg, apt-utils and sitecopy as dependencies.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Tue, 06 Apr 2021 13:45:24 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Tue, 06 Apr 2021 14:23:10 +0100
