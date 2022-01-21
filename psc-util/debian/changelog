@@ -1,3 +1,10 @@
+psc-util (2.1.0) UNRELEASED; urgency=medium
+
+  * Drop eyed3 as a dependency as it isn't keeping up with the version
+    in PyPI and has a bug writing the genre in ID3v2.4 files.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Fri, 21 Jan 2022 19:24:16 +0000
+
 psc-util (2.0.0) unstable; urgency=medium
 
   * Drop packages that are moved to the new psc-unbin: antiword, binutils,
