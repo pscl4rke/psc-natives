@@ -3,17 +3,18 @@ Section: misc
 Priority: optional
 Maintainer: P. S. Clarke <debs@pscl4rke.net>
 Build-Depends: debhelper (>=9)
-Standards-Version: 3.9.6
+Standards-Version: 4.5.0
 
 Package: psc-core
 Architecture: all
 Depends: ${misc:Depends},
- bash (>= 0), bash-doc,
+ bash (>= 0),
  cifs-utils, coreutils (>= 0), cryptsetup, curl,
- git, git-doc, git-man, gnupg,
- less, make, make-doc, ncp, nmap, openssh-client,
- rsync, tar (>= 0), tar-doc, unzip,
- vim, vim-doc, wget,
+ git, git-man, gnupg,
+ less, make, ncp, nmap, openssh-client,
+ rsync, tar (>= 0), unzip,
+ vim, wget,
+Recommends: bash-doc, git-doc, make-doc, tar-doc, vim-doc,
 Description: Collection of pretty-much essential packages
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer considers close-to-essential.  That is:
@@ -36,8 +37,10 @@ Description: Collection of pretty-much essential packages
    * vim - for editing files properly
    * wget - also for getting stuff
  .
- These are the bare minimum necessary to bootstrap a system.  Their
- documentation is also included.
+ These are the bare minimum necessary to bootstrap a system.
+ .
+ Their documentation is also included, but only as a recommendation
+ because some of them have non-free licensing.
  .
  Some of them might not seem completely necessary, but because
  other packages recommend them they'd be installed anyway.
