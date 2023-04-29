@@ -11,8 +11,9 @@ Standards-Version: 3.9.6
 Package: psc-dev
 Architecture: all
 Depends: ${misc:Depends},
- cloc, git, git-doc, git-man, make, make-doc,
- patch, quilt, shellcheck, sqlite3, sqlite3-doc, tig, vim, vim-doc,
+ cloc, git, make,
+ patch, quilt, shellcheck, sqlite3, tig, vim,
+Recommends: git-doc, git-man, make-doc, sqlite3-doc, vim-doc,
 Description: Collection of tools for general software development
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses for development.  They are:
@@ -27,4 +28,5 @@ Description: Collection of tools for general software development
    * tig - to browse git history
    * vim - for editing files properly
  .
- Their documentation is also included.
+ Their documentation is also included, but only as a recommendation
+ because some of them have non-free licensing.
