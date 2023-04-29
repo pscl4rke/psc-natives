@@ -1,3 +1,10 @@
+psc-util (2.2.0) UNRELEASED; urgency=medium
+
+  * Move all *-doc dependencies to be recommendations instead.
+    Solves some debian licensing issues.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 29 Apr 2023 16:19:17 +0100
+
 psc-util (2.1.0) unstable; urgency=medium
 
   * Drop eyed3 as a dependency as it isn't keeping up with the version
