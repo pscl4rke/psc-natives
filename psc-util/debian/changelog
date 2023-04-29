@@ -1,9 +1,9 @@
-psc-util (2.2.0) UNRELEASED; urgency=medium
+psc-util (2.2.0) unstable; urgency=medium
 
   * Move all *-doc dependencies to be recommendations instead.
     Solves some debian licensing issues.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Sat, 29 Apr 2023 16:19:17 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 29 Apr 2023 16:21:56 +0100
 
 psc-util (2.1.0) unstable; urgency=medium
 
