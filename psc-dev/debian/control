@@ -9,7 +9,8 @@ Package: psc-dev
 Architecture: all
 Depends: ${misc:Depends},
  cloc, git, make,
- patch, quilt, shellcheck, sqlite3, tig, vim,
+ patch, quilt, ripgrep,
+ shellcheck, sqlite3, tig, vim,
 Recommends: git-doc, git-man, make-doc, sqlite3-doc, vim-doc,
 Description: Collection of tools for general software development
  This metapackage provides nothing itself, but depends on lots of packages
@@ -20,6 +21,7 @@ Description: Collection of tools for general software development
    * make - the most common build tool
    * patch - to apply diffs
    * quilt - manage sets of patches to apply
+   * ripgrep - quick searching using rg
    * shellcheck - to whinge about shell scripts
    * sqlite3 - a shell for databases
    * tig - to browse git history
