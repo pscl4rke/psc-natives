@@ -8,7 +8,7 @@ Standards-Version: 4.5.0
 Package: psc-dev
 Architecture: all
 Depends: ${misc:Depends},
- cloc, git, make,
+ cloc, fzf, git, make,
  patch, quilt, ripgrep,
  shellcheck, sqlite3, tig, vim,
 Recommends: git-doc, git-man, make-doc, sqlite3-doc, vim-doc,
@@ -17,6 +17,7 @@ Description: Collection of tools for general software development
  that the maintainer uses for development.  They are:
  .
    * cloc - count lines of code
+   * fzf - mostly for file selection plugins
    * git - the version control system
    * make - the most common build tool
    * patch - to apply diffs
