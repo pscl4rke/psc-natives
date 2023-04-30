@@ -16,7 +16,7 @@ Depends: ${misc:Depends},
  make, markdown, moreutils, mpc,
  netcat-openbsd, oathtool, openssl,
  par, pv, qprint,
- remind, rhash, rlwrap,
+ remind, rhash, ripgrep, rlwrap,
  sharutils, sqlite3, sshuttle, strace, sysvbanner,
  task-spooler, telnet, tidy,
  tofrodos, toilet, tree, trim-c, units, uudeview, uuid,
@@ -61,6 +61,7 @@ Description: Collection of well-used command line utilities
    * qprint - encode/decode quoted-printable text
    * remind - calendar of recurring events
    * rhash - many different checksums
+   * ripgrep - quickly search file contents
    * rlwrap - add readline to a program shells
    * sharutils - handle shar and uuencode files
    * sqlite3 - a shell for databases

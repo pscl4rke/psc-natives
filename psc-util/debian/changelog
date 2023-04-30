@@ -1,3 +1,9 @@
+psc-util (2.3.0) UNRELEASED; urgency=medium
+
+  * Add ripgrep as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sun, 30 Apr 2023 23:06:52 +0100
+
 psc-util (2.2.0) unstable; urgency=medium
 
   * Move all *-doc dependencies to be recommendations instead.
