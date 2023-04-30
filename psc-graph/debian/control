@@ -13,6 +13,7 @@ Depends: ${misc:Depends},
  libheif-examples, libjpeg-progs,
  mp, mupdf, mupdf-tools, netpbm,
  pdfgrep, psutils, qpdf, webp,
+ zbar-tools,
 Recommends: ghostscript-doc, imagemagick-doc,
 Description: Collection of packages for images and typesetting
  This metapackage provides nothing itself, but depends on lots of packages
@@ -34,6 +35,7 @@ Description: Collection of packages for images and typesetting
    * psutils - rearrange postscript pages
    * qpdf - strip off pdf passwords
    * webp - convert webp images
+   * zbar-tools - decode QR codes with zbarimg
  .
  Their documentation is included as a recommendation in case any
  of them have non-free licences and are difficult to install.
