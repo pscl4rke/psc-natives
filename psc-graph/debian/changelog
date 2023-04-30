@@ -2,6 +2,7 @@ psc-graph (1.4.0) UNRELEASED; urgency=medium
 
   * Change documentation from dependency to recommendation.
   * Add zbar-tools as a dependency.
+  * Add qrencode as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sun, 30 Apr 2023 17:08:06 +0100
 
