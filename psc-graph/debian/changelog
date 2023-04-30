@@ -1,3 +1,9 @@
+psc-graph (1.4.0) UNRELEASED; urgency=medium
+
+  * Change documentation from dependency to recommendation.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sun, 30 Apr 2023 17:08:06 +0100
+
 psc-graph (1.3.0) unstable; urgency=medium
 
   * Clean up for latest lintian.

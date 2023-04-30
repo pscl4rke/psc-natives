@@ -8,11 +8,12 @@ Standards-Version: 4.5.0
 Package: psc-graph
 Architecture: all
 Depends: ${misc:Depends},
- findimagedupes, ghostscript, ghostscript-doc, groff,
- html2ps, imagemagick, imagemagick-doc,
+ findimagedupes, ghostscript, groff,
+ html2ps, imagemagick,
  libheif-examples, libjpeg-progs,
  mp, mupdf, mupdf-tools, netpbm,
  pdfgrep, psutils, qpdf, webp,
+Recommends: ghostscript-doc, imagemagick-doc,
 Description: Collection of packages for images and typesetting
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer finds valuable for handling images and doing page
@@ -34,4 +35,5 @@ Description: Collection of packages for images and typesetting
    * qpdf - strip off pdf passwords
    * webp - convert webp images
  .
- Their documentation is also included.
+ Their documentation is included as a recommendation in case any
+ of them have non-free licences and are difficult to install.
