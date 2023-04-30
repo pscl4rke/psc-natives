@@ -8,7 +8,7 @@ Standards-Version: 3.9.6
 Package: psc-term
 Architecture: all
 Depends: ${misc:Depends},
- abook, aspell, hexer, hnb, htop,
+ abook, aspell, fzf, hexer, hnb, htop,
  msmtp-mta | mail-transport-agent, mutt,
  ncdu, ncmpcpp, pick, screen,
  tig, w3m, urlview, wyrd
@@ -19,6 +19,7 @@ Description: Collection of well-known terminal applications
  .
    * abook - addresses and contacts
    * aspell - too cheque what eye rite
+   * fzf - select options from a list
    * hexer - to edit binary files
    * hnb - an outlining note taker
    * htop - tolerable browsing of processes
