@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: P. S. Clarke <debs@pscl4rke.net>
 Build-Depends: debhelper (>=9)
-Standards-Version: 3.9.6
+Standards-Version: 4.5.0
 
 Package: psc-term
 Architecture: all
@@ -24,7 +24,7 @@ Description: Collection of well-known terminal applications
    * hnb - an outlining note taker
    * htop - tolerable browsing of processes
    * mutt - least-suckiest mail client
-   * msmtp-mta (or equivalent) - to satify mutt's deps
+   * msmtp-mta (or equivalent) - to satisfy mutt's deps
    * ncdu - to see what is taking up all the space
    * ncmpcpp - for managing playback on MPD servers
    * pick - select options from a list
