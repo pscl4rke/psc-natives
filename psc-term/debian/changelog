@@ -1,8 +1,8 @@
-psc-term (1.6.0) UNRELEASED; urgency=medium
+psc-term (1.6.0) unstable; urgency=medium
 
   * Add fzf as a dependency
 
- -- P. S. Clarke <debs@pscl4rke.net>  Sun, 30 Apr 2023 23:00:34 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Sun, 30 Apr 2023 23:04:26 +0100
 
 psc-term (1.5.0) unstable; urgency=medium
 
