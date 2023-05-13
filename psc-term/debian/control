@@ -10,8 +10,9 @@ Architecture: all
 Depends: ${misc:Depends},
  abook, aspell, fzf, hexer, hnb, htop,
  msmtp-mta | mail-transport-agent, mutt,
- ncdu, ncmpcpp, pick, screen,
- tig, w3m, urlview, wyrd
+ ncdu, ncmpcpp, pick, screen, tig,
+ urlview-patched | urlview,
+ w3m, wyrd
 Description: Collection of well-known terminal applications
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly in terminal windows.  These are ones
@@ -30,8 +31,8 @@ Description: Collection of well-known terminal applications
    * pick - select options from a list
    * screen - to multiplex and detach terminals
    * tig - to browse git history
+   * urlview - select web pages to launch (patched!)
    * w3m - HTML renderer and web client
-   * urlview - select web pages to launch
    * wyrd - frontend to remind calendars
  .
  Their documentation is also included.
