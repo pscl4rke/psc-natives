@@ -1,9 +1,9 @@
-psc-util (2.4.0) UNRELEASED; urgency=medium
+psc-util (2.4.0) unstable; urgency=medium
 
   * Fix spellings.
   * Add recode as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Sat, 13 May 2023 15:19:20 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 13 May 2023 15:21:38 +0100
 
 psc-util (2.3.0) unstable; urgency=medium
 
