@@ -1,8 +1,8 @@
-psc-term (1.6.1) UNRELEASED; urgency=medium
+psc-term (1.6.1) unstable; urgency=medium
 
   * Bugfix relationship between urlview and urlview-patched
 
- -- P. S. Clarke <debs@pscl4rke.net>  Sat, 13 May 2023 15:23:55 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 13 May 2023 15:25:12 +0100
 
 psc-term (1.6.0) unstable; urgency=medium
 
