@@ -16,12 +16,13 @@ Depends: ${misc:Depends},
  make, markdown, moreutils, mpc,
  netcat-openbsd, oathtool, openssl,
  par, pv, qprint,
- remind, rhash, ripgrep, rlwrap,
+ recode, remind, rhash, ripgrep, rlwrap,
  sharutils, sqlite3, sshuttle, strace, sysvbanner,
  task-spooler, telnet, tidy,
  tofrodos, toilet, tree, trim-c, units, uudeview, uuid,
  wdiff, whois,
-Recommends: make-doc, qprint-doc, sharutils-doc, sqlite3-doc, wdiff-doc,
+Recommends: make-doc, qprint-doc, recode-doc,
+ sharutils-doc, sqlite3-doc, wdiff-doc,
 Description: Collection of well-used command line utilities
  This metapackage provides nothing itself, but depends on lots of packages
  that the maintainer uses regularly on the command line.  They are:
@@ -59,6 +60,7 @@ Description: Collection of well-used command line utilities
    * par - reformats paragraphs
    * pv - pipe viewer - cat with a progress bar
    * qprint - encode/decode quoted-printable text
+   * recode - change character encodings
    * remind - calendar of recurring events
    * rhash - many different checksums
    * ripgrep - quickly search file contents
