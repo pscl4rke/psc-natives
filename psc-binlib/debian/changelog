@@ -1,3 +1,9 @@
+psc-binlib (1.1.0) UNRELEASED; urgency=medium
+
+  * Add python3-aiohttp as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Mon, 07 Aug 2023 11:00:36 +0100
+
 psc-binlib (1.0.0) unstable; urgency=medium
 
   * Initial Release.

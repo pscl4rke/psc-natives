@@ -8,7 +8,9 @@ Standards-Version: 4.4.1
 Package: psc-binlib
 Architecture: all
 Depends: ${misc:Depends},
- python3-boto, python3-bs4, python3-mutagen, python3-requests,
+ python3-aiohttp,
+ python3-boto, python3-bs4,
+ python3-mutagen, python3-requests,
 Description: Collection of libraries used by scripts
  This metapackage provides nothing itself, but depends on lots of
  packages for frequently-used libraries.  This is to enable scripts
@@ -16,9 +18,10 @@ Description: Collection of libraries used by scripts
  work without additional installations.  Primarily Python libraries,
  but they don't have to be.
  .
+   * python3-aiohttp - downloading from web
    * python3-boto - for amazon s3
    * python3-bs4 - beautiful soup html parsing
    * python3-mutagen - media file metadata
    * python3-requests - downloading from web
  .
- Their documentation is also included.
+ Any documentation is also included.
