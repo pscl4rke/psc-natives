@@ -4,6 +4,7 @@ psc-py3dev (0.1.0) UNRELEASED; urgency=medium
   * Add python3-wheel as a dependency.
   * Remove python3-pep8 as a dependency.
     (The project is known as 'pycodesyle' now anyway!)
+  * Move documentation from Depends to Recommends.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 16 Sep 2023 08:46:55 +0100
 
