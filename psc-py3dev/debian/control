@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: P. S. Clarke <debs@pscl4rke.net>
 Build-Depends: debhelper (>=9)
-Standards-Version: 3.9.6
+Standards-Version: 4.5.0
 
 Package: psc-py3dev
 Architecture: all
@@ -18,13 +18,8 @@ Description: Collecton of packages for Python 3 development
    * python3 - an actual interpreter
    * python3-dev - to use wrapped C libraries
    * python3-pep8 - a style checker
-   * python3-venv - allow `ensure-pip` to work
    * python3-pip - to acquire libraries
+   * python3-venv - allow `ensure-pip` to work
    * python3-virtualenv - isolate dependencies
- .
- However, because of Python 2 dependencies I don't install:
- .
-   * python3-pyflakes - static analysis
-   * virtualenvwrapper - makes virtualenv usable
  .
  Their documentation is also included.

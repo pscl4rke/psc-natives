@@ -1,3 +1,9 @@
+psc-py3dev (0.1.0) UNRELEASED; urgency=medium
+
+  * Update for latest debbuild/lintian requirements.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 16 Sep 2023 08:46:55 +0100
+
 psc-py3dev (0.0.3) unstable; urgency=medium
 
   * Don't depend on virtualenvwrapper because it needs Python 2.
