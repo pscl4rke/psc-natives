@@ -1,9 +1,9 @@
-psc-binlib (1.2.0) UNRELEASED; urgency=medium
+psc-binlib (1.2.0) unstable; urgency=medium
 
   * Add python3-pexpect as a dependency.
   * Include all docs as recommendations.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Sat, 27 Jan 2024 13:56:48 +0000
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 27 Jan 2024 14:01:55 +0000
 
 psc-binlib (1.1.0) unstable; urgency=medium
 
