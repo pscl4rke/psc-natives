@@ -12,6 +12,10 @@ Depends: ${misc:Depends},
  python3-boto, python3-bs4,
  python3-mutagen, python3-pexpect,
  python3-requests,
+Recommends:
+ python-aiohttp-doc, python-bs4-doc,
+ python-mutagen-doc, python-pexpect-doc,
+ python-requests-doc,
 Description: Collection of libraries used by scripts
  This metapackage provides nothing itself, but depends on lots of
  packages for frequently-used libraries.  This is to enable scripts
@@ -26,4 +30,4 @@ Description: Collection of libraries used by scripts
    * python3-pexpect - automating console apps
    * python3-requests - downloading from web
  .
- Any documentation is also included.
+ Their documentation is also included as an optional recommendation.
