@@ -1,9 +1,9 @@
-psc-xwin (1.5.1) UNRELEASED; urgency=medium
+psc-xwin (1.5.1) unstable; urgency=medium
 
   * Rename vim-gtk to vim-gtk3, which has been preferred for
     a long time.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Sun, 14 Apr 2024 16:15:52 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Sun, 14 Apr 2024 16:17:33 +0100
 
 psc-xwin (1.5.0) unstable; urgency=medium
 
