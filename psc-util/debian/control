@@ -8,9 +8,9 @@ Standards-Version: 4.5.0
 Package: psc-util
 Architecture: all
 Depends: ${misc:Depends},
- adb, ack-grep, acpi, apache2-utils, apcalc,
+ adb, ack-grep, acpi, apache2-utils,
  bc, bsdgames, bsdutils (>= 0), bsdmainutils,
- colordiff, dc, dos2unix, dnsutils, ed,
+ calc, colordiff, dc, dos2unix, dnsutils, ed,
  fdupes, figlet, file, gettext-base, gpw,
  hashdeep, hledger, jq, laptop-detect,
  make, markdown, moreutils, mpc,
@@ -31,11 +31,11 @@ Description: Collection of well-used command line utilities
    * ack-grep - ack is better than grep
    * acpi - monitor batteries and temperatures
    * apache2-utils - for htpasswd manager
-   * apcalc - for the `calc` calculator
    * bc - for another calculator
    * bsdgames - for serious stuff, like rot13
    * bsdutils - for things like `logger`
    * bsdmainutils - esp. for `calendar` and `column`
+   * calc - for a calculator
    * colordiff - for more readable deltas
    * dc - for reverse polish calculations
    * dos2unix - the original crlf <-> lf converter
