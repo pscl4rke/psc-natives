@@ -1,9 +1,9 @@
-psc-xapp (1.1.1) UNRELEASED; urgency=medium
+psc-xapp (1.1.1) unstable; urgency=medium
 
   * Rename vim-gtk to vim-gtk3, which has been preferred for
     a long time.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Thu, 18 Apr 2024 21:49:50 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Thu, 18 Apr 2024 21:51:24 +0100
 
 psc-xapp (1.1.0) unstable; urgency=medium
 
