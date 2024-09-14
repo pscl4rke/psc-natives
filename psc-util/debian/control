@@ -9,12 +9,12 @@ Package: psc-util
 Architecture: all
 Depends: ${misc:Depends},
  adb, ack-grep, acpi, apache2-utils,
- bc, bsdgames, bsdutils (>= 0), bsdmainutils,
- calc, colordiff, dc, dos2unix, dnsutils, ed,
+ bc, bsdgames, bsdutils (>= 0), bsdextrautils,
+ calc, calendar, colordiff, dc, dos2unix, dnsutils, ed,
  fdupes, figlet, file, gettext-base, gpw,
  hashdeep, hledger, jq, laptop-detect,
  make, markdown, moreutils, mpc,
- netcat-openbsd, oathtool, openssl,
+ ncal, netcat-openbsd, oathtool, openssl,
  par, pv, qprint,
  recode, remind, rhash, ripgrep, rlwrap,
  sharutils, sqlite3, sshuttle, strace, sysvbanner,
@@ -34,8 +34,9 @@ Description: Collection of well-used command line utilities
    * bc - for another calculator
    * bsdgames - for serious stuff, like rot13
    * bsdutils - for things like `logger`
-   * bsdmainutils - esp. for `calendar` and `column`
+   * bsdextrautils - e.g. for `hexdump` and `column`
    * calc - for a calculator
+   * calendar - annual reminders
    * colordiff - for more readable deltas
    * dc - for reverse polish calculations
    * dos2unix - the original crlf <-> lf converter
@@ -54,6 +55,7 @@ Description: Collection of well-used command line utilities
    * markdown - the text-to-html converter (pl version)
    * moreutils - assorted stuff not in coreutils
    * mpc - connect to MPD servers
+   * ncal - the cal calendar
    * netcat-openbsd - the version with `nc -U`
    * oathtool - TOTP two-factor authentication
    * openssl - manage encryption and certificates

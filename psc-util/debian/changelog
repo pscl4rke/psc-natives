@@ -1,3 +1,10 @@
+psc-util (2.5.0) UNRELEASED; urgency=medium
+
+  * Remove bsdmainutils because it is now just a transitional package.
+  * Instead explicitly install calendar, ncal and bsdextrautils.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 14 Sep 2024 16:29:11 +0100
+
 psc-util (2.4.1) unstable; urgency=medium
 
   * Rename apcalc to calc, the as the transitional package has
