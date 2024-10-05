@@ -9,7 +9,7 @@ Package: psc-debdev
 Architecture: all
 Depends: ${misc:Depends},
  apt-utils, debhelper, devscripts, dh-make, dh-python, equivs,
- gnupg, lintian, quilt,
+ gnupg, lintian, python3-debian, quilt,
 Suggests: sitecopy,
 Description: Collection of packages for Deb packaging
  This metapackage provides nothing itself, but depends on lots of
@@ -24,6 +24,7 @@ Description: Collection of packages for Deb packaging
    * equivs - quickly create fake packages
    * gnupg - to sign packages and releases
    * lintian - quality assurance
+   * python3-debian - scripts examining debs
    * quilt - manage a patch series
  .
  For legacy reasons the following suggestions are made:

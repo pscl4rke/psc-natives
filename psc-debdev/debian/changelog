@@ -1,6 +1,7 @@
 psc-debdev (1.2.0) UNRELEASED; urgency=medium
 
   * Move sitecopy from dependency to suggestion.
+  * Add python3-debian as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Sat, 05 Oct 2024 15:59:40 +0100
 
