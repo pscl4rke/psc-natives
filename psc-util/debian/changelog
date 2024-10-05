@@ -1,3 +1,9 @@
+psc-util (2.6.0) UNRELEASED; urgency=medium
+
+  * Add recomi as a dependency (only in custom repo).
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 05 Oct 2024 15:24:59 +0100
+
 psc-util (2.5.0) unstable; urgency=medium
 
   * Remove bsdmainutils because it is now just a transitional package.
