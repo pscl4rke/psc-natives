@@ -9,7 +9,8 @@ Package: psc-debdev
 Architecture: all
 Depends: ${misc:Depends},
  apt-utils, debhelper, devscripts, dh-make, dh-python, equivs,
- gnupg, lintian, quilt, sitecopy,
+ gnupg, lintian, quilt,
+Suggests: sitecopy,
 Description: Collection of packages for Deb packaging
  This metapackage provides nothing itself, but depends on lots of
  packages that the maintainer uses when producing metapackages like
@@ -24,6 +25,9 @@ Description: Collection of packages for Deb packaging
    * gnupg - to sign packages and releases
    * lintian - quality assurance
    * quilt - manage a patch series
+ .
+ For legacy reasons the following suggestions are made:
+ .
    * sitecopy - upload to ftp servers
  .
  Their documentation is also included.
