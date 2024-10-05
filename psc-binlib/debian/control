@@ -10,6 +10,7 @@ Architecture: all
 Depends: ${misc:Depends},
  python3-aiohttp,
  python3-boto, python3-bs4,
+ python3-cryptography,
  python3-mutagen, python3-pexpect,
  python3-requests,
 Recommends:
@@ -26,6 +27,7 @@ Description: Collection of libraries used by scripts
    * python3-aiohttp - downloading from web
    * python3-boto - for amazon s3
    * python3-bs4 - beautiful soup html parsing
+   * python3-cryptography - particularly for fernet
    * python3-mutagen - media file metadata
    * python3-pexpect - automating console apps
    * python3-requests - downloading from web
