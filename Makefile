@@ -21,11 +21,11 @@ new:
 	mkdir $(name)-0.0.1
 	cd $(name)-0.0.1 && dh_make --native --indep
 	mv $(name)-0.0.1 $(name)
-	rm $(name)/debian/*.ex
-	rm $(name)/debian/*.EX
-	rm $(name)/debian/README*
+	rm -f $(name)/debian/*.ex
+	rm -f $(name)/debian/*.EX
+	rm -f $(name)/debian/README*
 	rm -f $(name)/debian/docs*
-	rm $(name)/debian/*.docs
+	rm -f $(name)/debian/*.docs
 	sed -i 's/unstable/UNRELEASED/' $(name)/debian/changelog
 	sed -i 's/unknown/misc/' $(name)/debian/control
 	sed -i 's/^Homep/#Homep/' $(name)/debian/control
@@ -35,5 +35,7 @@ new:
 	sed -i '/for another author/ d' $(name)/debian/copyright
 	sed -i '/^# / d' $(name)/debian/copyright
 	echo "$(name)/debian/$(name)/" >> .gitignore
+	@echo
+	@echo You still need to remove the extra section from the copyright file...
 	@echo
 	@echo You still need to fix a few things in the control file...
