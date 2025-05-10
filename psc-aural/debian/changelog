@@ -1,6 +1,6 @@
-psc-aural (0.0.1) UNRELEASED; urgency=medium
+psc-aural (0.1.0) unstable; urgency=medium
 
   * Initial release.
   * Add minimodem, espeak-ng, cw and ebook2cw as dependencies.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Sat, 10 May 2025 13:26:35 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Sat, 10 May 2025 14:02:02 +0100
