@@ -1,0 +1,22 @@
+Source: psc-aural
+Section: misc
+Priority: optional
+Maintainer: P. S. Clarke <debs@pscl4rke.net>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+
+Package: psc-aural
+Architecture: all
+Depends: ${misc:Depends},
+ cw, ebook2cw, espeak-ng, minimodem,
+Description: Collection of packages for sound and audio
+ This metapackage provides nothing itself, but depends on lots of packages
+ that the maintainer finds valuable for processing audio and generating
+ sound.  They are:
+ .
+   * cw - Morse code practice
+   * ebook2cw - Read text aloud with morse code
+   * espeak-ng - Read text with a human voice
+   * minimodem - acoustic transfer between airgapped machines
