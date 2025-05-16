@@ -2,10 +2,6 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: psc-bind
 Source: (none)
 
-Files: *
-Copyright: 2017 P. S. Clarke <debs@pscl4rke.net>
-License: GPL-3.0+
-
 Files: debian/*
 Copyright: 2017 P. S. Clarke <debs@pscl4rke.net>
 License: GPL-3.0+
