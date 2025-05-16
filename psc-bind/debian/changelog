@@ -1,9 +1,9 @@
-psc-bind (1.1.1) UNRELEASED; urgency=medium
+psc-bind (1.1.1) unstable; urgency=medium
 
   * Add pkg-config as a dependency (for mysql).
   * Move docs to be a recommendation.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Fri, 16 May 2025 18:16:10 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Fri, 16 May 2025 18:19:33 +0100
 
 psc-bind (1.1.0) unstable; urgency=medium
 
