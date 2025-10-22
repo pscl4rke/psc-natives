@@ -8,7 +8,7 @@ Standards-Version: 4.4.1
 Package: psc-xapp
 Architecture: all
 Depends: ${misc:Depends},
- dillo, feh, mpv, rxvt-unicode, sxiv, vim-gtk3, xteddy,
+ dillo, feh, mpv, rxvt-unicode, nsxiv | sxiv, vim-gtk3, xteddy,
  zathura, zathura-pdf-poppler, zathura-ps, zathura-djvu,
 Recommends: vim-doc,
 Conflicts: youtube-dl (<< 9000)
@@ -22,7 +22,7 @@ Description: Collection of lightweight X11 applications
    * feh - configurable image viewer
    * mpv - swiss-army media player
    * rxvt-unicode - the urxvt terminal
-   * sxiv - minimalistic image viewer
+   * sxiv or nsxiv - minimalistic image viewer
    * vim-gtk3 - to edit odd things
    * xteddy - furry companion
    * zathura - pluggable document viewer

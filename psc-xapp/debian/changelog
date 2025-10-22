@@ -1,6 +1,8 @@
 psc-xapp (1.2.0) UNRELEASED; urgency=medium
 
-  * Move docs to be recommendations
+  * Move docs to be recommendations.
+  * Fix lintian complaining.
+  * Prefer nsxiv over sxiv.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Wed, 22 Oct 2025 18:53:50 +0100
 
