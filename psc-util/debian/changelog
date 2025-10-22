@@ -1,4 +1,4 @@
-psc-util (2.7.0) UNRELEASED; urgency=medium
+psc-util (2.7.0) unstable; urgency=medium
 
   * Add renameutils as a dependency.
   * Add xxd as a dependency.
@@ -6,7 +6,7 @@ psc-util (2.7.0) UNRELEASED; urgency=medium
   * Add age as a dependency.
   * Add zbackup as a dependency.
 
- -- P. S. Clarke <debs@pscl4rke.net>  Wed, 22 Oct 2025 19:13:32 +0100
+ -- P. S. Clarke <debs@pscl4rke.net>  Wed, 22 Oct 2025 22:32:22 +0100
 
 psc-util (2.6.0) unstable; urgency=medium
 
