@@ -12,7 +12,7 @@ Depends: ${misc:Depends},
  bc, bsdgames, bsdutils (>= 0), bsdextrautils,
  calc, calendar, colordiff, dc, dos2unix, dnsutils, ed,
  fdupes, figlet, file, gettext-base, gpw,
- hashdeep, hledger, jq, laptop-detect,
+ hashdeep, hledger, jq, laptop-detect, lftp,
  make, markdown, moreutils, mpc,
  ncal, netcat-openbsd, oathtool, openssl,
  par, pv, qprint,
@@ -51,6 +51,7 @@ Description: Collection of well-used command line utilities
    * hledger - to balance the books
    * jq - for manipulating JSON
    * laptop-detect - guess type of computer
+   * lftp - not just FTP transfers
    * make - to build all sorts of things
    * markdown - the text-to-html converter (pl version)
    * moreutils - assorted stuff not in coreutils
