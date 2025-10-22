@@ -16,7 +16,7 @@ Depends: ${misc:Depends},
  make, markdown, moreutils, mpc,
  ncal, netcat-openbsd, oathtool, openssl,
  par, pv, qprint,
- recode, recomi, remind, rhash, ripgrep, rlwrap,
+ recode, recomi, remind, renameutils, rhash, ripgrep, rlwrap,
  sharutils, sqlite3, sshuttle, strace, sysvbanner,
  task-spooler, telnet, tidy,
  tofrodos, toilet, tree, trim-c, units, uudeview, uuid,
@@ -65,6 +65,7 @@ Description: Collection of well-used command line utilities
    * recode - change character encodings
    * recomi - my own repo collection mirror
    * remind - calendar of recurring events
+   * renameutils - mostly for qmv
    * rhash - many different checksums
    * ripgrep - quickly search file contents
    * rlwrap - add readline to a program shells

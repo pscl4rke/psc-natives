@@ -1,3 +1,9 @@
+psc-util (2.7.0) UNRELEASED; urgency=medium
+
+  * Add renameutils as a dependency.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Wed, 22 Oct 2025 19:13:32 +0100
+
 psc-util (2.6.0) unstable; urgency=medium
 
   * Add recomi as a dependency (only in custom repo).
