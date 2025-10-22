@@ -10,6 +10,7 @@ Architecture: all
 Depends: ${misc:Depends},
  dillo, feh, mpv, rxvt-unicode, sxiv, vim-gtk3, xteddy,
  zathura, zathura-pdf-poppler, zathura-ps, zathura-djvu,
+Recommends: vim-doc,
 Conflicts: youtube-dl (<< 9000)
 Description: Collection of lightweight X11 applications
  This metapackage provides nothing itself, but depends upon packages
@@ -26,4 +27,5 @@ Description: Collection of lightweight X11 applications
    * xteddy - furry companion
    * zathura - pluggable document viewer
  .
- Their documentation is also included.
+ Their documentation is included as a recommendation in case any
+ of them have non-free licences and are difficult to install.
