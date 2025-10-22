@@ -8,7 +8,7 @@ Standards-Version: 4.5.0
 Package: psc-util
 Architecture: all
 Depends: ${misc:Depends},
- adb, ack-grep, acpi, apache2-utils,
+ adb, ack-grep, acpi, age, apache2-utils,
  bc, bsdgames, bsdutils (>= 0), bsdextrautils,
  calc, calendar, colordiff, dc, dos2unix, dnsutils, ed,
  fdupes, figlet, file, gettext-base, gpw,
@@ -30,6 +30,7 @@ Description: Collection of well-used command line utilities
    * adb - manage Android phones
    * ack-grep - ack is better than grep
    * acpi - monitor batteries and temperatures
+   * age - alternative en/decryption
    * apache2-utils - for htpasswd manager
    * bc - for another calculator
    * bsdgames - for serious stuff, like rot13
