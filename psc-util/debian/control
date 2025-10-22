@@ -20,7 +20,7 @@ Depends: ${misc:Depends},
  sharutils, sqlite3, sshuttle, strace, sysvbanner,
  task-spooler, telnet, tidy,
  tofrodos, toilet, tree, trim-c, units, uudeview, uuid,
- wdiff, whois, xxd,
+ wdiff, whois, xxd, zbackup,
 Recommends: make-doc, qprint-doc, recode-doc,
  sharutils-doc, sqlite3-doc, wdiff-doc,
 Description: Collection of well-used command line utilities
@@ -89,5 +89,6 @@ Description: Collection of well-used command line utilities
    * wdiff - to compare files within lines
    * whois - for `whois` and `mkpasswd`
    * xxd - to do a hexdump
+   * zbackup - deduplicating storage
  .
  Their documentation is also included.
