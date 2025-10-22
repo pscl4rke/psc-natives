@@ -2,6 +2,7 @@ psc-unbin (1.1.0) UNRELEASED; urgency=medium
 
   * Add xxd as a dependency.
   * Fix lintian messages.
+  * Add libimage-exiftool-perl as a dependency.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Wed, 22 Oct 2025 22:35:41 +0100
 

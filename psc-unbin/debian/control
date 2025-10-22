@@ -9,7 +9,8 @@ Package: psc-unbin
 Architecture: all
 Depends: ${misc:Depends},
  antiword, binutils, binutils-doc, bomstrip, catdoc, docx2txt, dos2unix,
- file, html2text, poppler-utils, sqlite3, sqlite3-doc, tofrodos,
+ file, html2text, libimage-exiftool-perl, poppler-utils,
+ sqlite3, sqlite3-doc, tofrodos,
  unrtf, xlsx2csv, xxd,
 Description: Collection of binary-to-text converters
  This metapackage provides nothing itself, but depends on lots of packages
@@ -26,6 +27,7 @@ Description: Collection of binary-to-text converters
    * dos2unix - the original crlf <-> lf converter
    * file - tell file types with magic numbers
    * html2text - renders web pages plainly
+   * libimage-exiftool-perl - jpeg photo metadata
    * poppler-utils - for pdftotext and co
    * sqlite3 - a shell for databases
    * tofrodos - another crlf <-> lf converter
