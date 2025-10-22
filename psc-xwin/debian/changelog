@@ -1,3 +1,9 @@
+psc-xwin (1.5.2) UNRELEASED; urgency=medium
+
+  * Move docs to only be a recommendation.
+
+ -- P. S. Clarke <debs@pscl4rke.net>  Wed, 22 Oct 2025 18:35:29 +0100
+
 psc-xwin (1.5.1) unstable; urgency=medium
 
   * Rename vim-gtk to vim-gtk3, which has been preferred for

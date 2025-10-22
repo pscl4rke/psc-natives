@@ -8,11 +8,12 @@ Standards-Version: 4.5.0
 Package: psc-xwin
 Architecture: all
 Depends: ${misc:Depends}, arandr, dillo, openbox,
- libnotify-bin, libnotify-doc,
+ libnotify-bin,
  redshift, rxvt-unicode, scrot, simpleswitcher, suckless-tools, sxiv,
  tilda, vim-gtk3, wmctrl,
  x11-utils, x11-xserver-utils, xbacklight, xclip, xdotool, xmacro, xteddy,
  zenity,
+Recommends: libnotify-doc, vim-doc,
 Description: Collection of toolkit-independent GUI tools
  This metapackage provides nothing itself, but depends upon packages
  that the maintainer considers important for working in X windows
@@ -42,4 +43,5 @@ Description: Collection of toolkit-independent GUI tools
    * xteddy - furry companion
    * zenity - for scriptable popups
  .
- Their documentation is also included.
+ Their documentation is included as a recommendation in case any
+ of them have non-free licences and are difficult to install.
