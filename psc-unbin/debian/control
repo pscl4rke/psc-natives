@@ -2,11 +2,8 @@ Source: psc-unbin
 Section: misc
 Priority: optional
 Maintainer: P. S. Clarke <debs@pscl4rke.net>
-Build-Depends: debhelper (>=9)
+Build-Depends: debhelper (>=12)
 Standards-Version: 3.9.6
-#Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://anonscm.debian.org/collab-maint/psc-unbin.git
-#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/psc-unbin.git
 
 Package: psc-unbin
 Architecture: all
