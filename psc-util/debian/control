@@ -20,7 +20,7 @@ Depends: ${misc:Depends},
  sharutils, sqlite3, sshuttle, strace, sysvbanner,
  task-spooler, telnet, tidy,
  tofrodos, toilet, tree, trim-c, units, uudeview, uuid,
- wdiff, whois,
+ wdiff, whois, xxd,
 Recommends: make-doc, qprint-doc, recode-doc,
  sharutils-doc, sqlite3-doc, wdiff-doc,
 Description: Collection of well-used command line utilities
@@ -86,5 +86,6 @@ Description: Collection of well-used command line utilities
    * uuid - for random identifiers
    * wdiff - to compare files within lines
    * whois - for `whois` and `mkpasswd`
+   * xxd - to do a hexdump
  .
  Their documentation is also included.
