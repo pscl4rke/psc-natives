@@ -2,6 +2,7 @@ psc-xwin (1.5.2) UNRELEASED; urgency=medium
 
   * Move docs to only be a recommendation.
   * Stop complaints from lintian.
+  * Prefer nsxiv or sxiv if possible.
 
  -- P. S. Clarke <debs@pscl4rke.net>  Wed, 22 Oct 2025 18:35:29 +0100
 

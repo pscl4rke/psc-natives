@@ -9,7 +9,8 @@ Package: psc-xwin
 Architecture: all
 Depends: ${misc:Depends}, arandr, dillo, openbox,
  libnotify-bin,
- redshift, rxvt-unicode, scrot, simpleswitcher, suckless-tools, sxiv,
+ redshift, rxvt-unicode, scrot, simpleswitcher, suckless-tools,
+ nsxiv | sxiv,
  tilda, vim-gtk3, wmctrl,
  x11-utils, x11-xserver-utils, xbacklight, xclip, xdotool, xmacro, xteddy,
  zenity,
@@ -30,7 +31,7 @@ Description: Collection of toolkit-independent GUI tools
    * scrot - for screenshots
    * simpleswitcher - interactive window finder
    * suckless-tools - for the excellent dmenu
-   * sxiv - minimalistic image viewer
+   * sxiv or nsxiv - minimalistic image viewer
    * tilda - dropdown terminal
    * vim-gtk3 - to edit odd things
    * wmctrl - for finding windows
